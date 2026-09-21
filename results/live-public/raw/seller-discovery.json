@@ -1,0 +1,254 @@
+[
+  {
+    "product_id": "heatless-curling-rod",
+    "channel": "amazon_in",
+    "query": "heatless curling rod",
+    "evidence_url": "https://www.amazon.in/s?k=heatless+curling+rod",
+    "checked_at": "2026-09-21T10:46:34.495173+00:00",
+    "status": "blocked",
+    "leads": [],
+    "reason": "HTTP 503"
+  },
+  {
+    "product_id": "heatless-curling-rod",
+    "channel": "flipkart",
+    "query": "heatless curling rod",
+    "evidence_url": "https://www.flipkart.com/search?q=heatless+curling+rod",
+    "checked_at": "2026-09-21T10:46:34.711688+00:00",
+    "status": "blocked",
+    "leads": [],
+    "reason": "HTTP 403"
+  },
+  {
+    "product_id": "heatless-curling-rod",
+    "channel": "instagram",
+    "query": "heatless curling rod",
+    "evidence_url": "https://www.google.com/search?q=%22heatless+curling+rod%22+site%3Ainstagram.com+India+buy",
+    "checked_at": "2026-09-21T10:46:35.101609+00:00",
+    "status": "blocked",
+    "leads": [],
+    "response_sha256": "9a993fa154f9e74a456aa6f07e3f489834580559165883b6477a5fff7882e0a4",
+    "reason": "No parseable listings; challenge, changed layout or empty search cannot establish zero sellers."
+  },
+  {
+    "product_id": "heatless-curling-rod",
+    "channel": "shopify",
+    "query": "heatless curling rod",
+    "evidence_url": "https://www.google.com/search?q=%22heatless+curling+rod%22+India+buy+Shopify",
+    "checked_at": "2026-09-21T10:46:36.058514+00:00",
+    "status": "blocked",
+    "leads": [],
+    "response_sha256": "943ceeb2197e80434c82d04e1df1694d74ce2bc5365ef761b8bd11dccb04168a",
+    "reason": "No parseable listings; challenge, changed layout or empty search cannot establish zero sellers."
+  },
+  {
+    "product_id": "pet-hair-remover",
+    "channel": "amazon_in",
+    "query": "pet hair remover",
+    "evidence_url": "https://www.amazon.in/s?k=pet+hair+remover",
+    "checked_at": "2026-09-21T10:46:36.576594+00:00",
+    "status": "blocked",
+    "leads": [],
+    "reason": "HTTP 503"
+  },
+  {
+    "product_id": "pet-hair-remover",
+    "channel": "flipkart",
+    "query": "pet hair remover",
+    "evidence_url": "https://www.flipkart.com/search?q=pet+hair+remover",
+    "checked_at": "2026-09-21T10:46:36.776465+00:00",
+    "status": "blocked",
+    "leads": [],
+    "reason": "HTTP 403"
+  },
+  {
+    "product_id": "pet-hair-remover",
+    "channel": "instagram",
+    "query": "pet hair remover",
+    "evidence_url": "https://www.google.com/search?q=%22pet+hair+remover%22+site%3Ainstagram.com+India+buy",
+    "checked_at": "2026-09-21T10:46:37.032390+00:00",
+    "status": "blocked",
+    "leads": [],
+    "response_sha256": "327f43495a879cb3086cb8c1407f3a3521fdca68a210520da18a5584adf09aa9",
+    "reason": "No parseable listings; challenge, changed layout or empty search cannot establish zero sellers."
+  },
+  {
+    "product_id": "pet-hair-remover",
+    "channel": "shopify",
+    "query": "pet hair remover",
+    "evidence_url": "https://www.google.com/search?q=%22pet+hair+remover%22+India+buy+Shopify",
+    "checked_at": "2026-09-21T10:46:37.284976+00:00",
+    "status": "blocked",
+    "leads": [],
+    "response_sha256": "38cfe99de67c519df79d6e34e3e91e23db6174600060d9272dfb62f2178743ea",
+    "reason": "No parseable listings; challenge, changed layout or empty search cannot establish zero sellers."
+  },
+  {
+    "product_id": "silicone-faucet-mat",
+    "channel": "amazon_in",
+    "query": "silicone faucet mat",
+    "evidence_url": "https://www.amazon.in/s?k=silicone+faucet+mat",
+    "checked_at": "2026-09-21T10:46:37.534632+00:00",
+    "status": "blocked",
+    "leads": [],
+    "reason": "HTTP 503"
+  },
+  {
+    "product_id": "silicone-faucet-mat",
+    "channel": "flipkart",
+    "query": "silicone faucet mat",
+    "evidence_url": "https://www.flipkart.com/search?q=silicone+faucet+mat",
+    "checked_at": "2026-09-21T10:46:37.735862+00:00",
+    "status": "blocked",
+    "leads": [],
+    "reason": "HTTP 403"
+  },
+  {
+    "product_id": "silicone-faucet-mat",
+    "channel": "instagram",
+    "query": "silicone faucet mat",
+    "evidence_url": "https://www.google.com/search?q=%22silicone+faucet+mat%22+site%3Ainstagram.com+India+buy",
+    "checked_at": "2026-09-21T10:46:37.897276+00:00",
+    "status": "blocked",
+    "leads": [],
+    "response_sha256": "6988795890fe098f875712acf31592807a8ab857c2f2d16e375379ece7b136d8",
+    "reason": "No parseable listings; challenge, changed layout or empty search cannot establish zero sellers."
+  },
+  {
+    "product_id": "silicone-faucet-mat",
+    "channel": "shopify",
+    "query": "silicone faucet mat",
+    "evidence_url": "https://www.google.com/search?q=%22silicone+faucet+mat%22+India+buy+Shopify",
+    "checked_at": "2026-09-21T10:46:38.557434+00:00",
+    "status": "blocked",
+    "leads": [],
+    "response_sha256": "41655ee6a0da09f431f523a52d778f5612c2db887a09bcdebfb8e4e8d4c02523",
+    "reason": "No parseable listings; challenge, changed layout or empty search cannot establish zero sellers."
+  },
+  {
+    "product_id": "compression-packing-cubes",
+    "channel": "amazon_in",
+    "query": "compression packing cubes",
+    "evidence_url": "https://www.amazon.in/s?k=compression+packing+cubes",
+    "checked_at": "2026-09-21T10:46:38.933854+00:00",
+    "status": "blocked",
+    "leads": [],
+    "reason": "HTTP 503"
+  },
+  {
+    "product_id": "compression-packing-cubes",
+    "channel": "flipkart",
+    "query": "compression packing cubes",
+    "evidence_url": "https://www.flipkart.com/search?q=compression+packing+cubes",
+    "checked_at": "2026-09-21T10:46:39.131161+00:00",
+    "status": "blocked",
+    "leads": [],
+    "reason": "HTTP 403"
+  },
+  {
+    "product_id": "compression-packing-cubes",
+    "channel": "instagram",
+    "query": "compression packing cubes",
+    "evidence_url": "https://www.google.com/search?q=%22compression+packing+cubes%22+site%3Ainstagram.com+India+buy",
+    "checked_at": "2026-09-21T10:46:39.327739+00:00",
+    "status": "blocked",
+    "leads": [],
+    "response_sha256": "075d2107e0a23ba070b6f541a835a649e8efeed6d862b73ff0a0f193fc3566ff",
+    "reason": "No parseable listings; challenge, changed layout or empty search cannot establish zero sellers."
+  },
+  {
+    "product_id": "compression-packing-cubes",
+    "channel": "shopify",
+    "query": "compression packing cubes",
+    "evidence_url": "https://www.google.com/search?q=%22compression+packing+cubes%22+India+buy+Shopify",
+    "checked_at": "2026-09-21T10:46:39.722170+00:00",
+    "status": "blocked",
+    "leads": [],
+    "response_sha256": "842c1f83e5f7ef482493464854fda77e81ccfaf1664551eba16cc77ba5770962",
+    "reason": "No parseable listings; challenge, changed layout or empty search cannot establish zero sellers."
+  },
+  {
+    "product_id": "magnetic-cable-clips",
+    "channel": "amazon_in",
+    "query": "magnetic cable clips",
+    "evidence_url": "https://www.amazon.in/s?k=magnetic+cable+clips",
+    "checked_at": "2026-09-21T10:46:39.952817+00:00",
+    "status": "blocked",
+    "leads": [],
+    "reason": "HTTP 503"
+  },
+  {
+    "product_id": "magnetic-cable-clips",
+    "channel": "flipkart",
+    "query": "magnetic cable clips",
+    "evidence_url": "https://www.flipkart.com/search?q=magnetic+cable+clips",
+    "checked_at": "2026-09-21T10:46:40.141003+00:00",
+    "status": "blocked",
+    "leads": [],
+    "reason": "HTTP 403"
+  },
+  {
+    "product_id": "magnetic-cable-clips",
+    "channel": "instagram",
+    "query": "magnetic cable clips",
+    "evidence_url": "https://www.google.com/search?q=%22magnetic+cable+clips%22+site%3Ainstagram.com+India+buy",
+    "checked_at": "2026-09-21T10:46:40.301861+00:00",
+    "status": "blocked",
+    "leads": [],
+    "response_sha256": "fdc4f39bf567e0402f7986bc13e2a3f830997422773fc2fd072ea232da99916a",
+    "reason": "No parseable listings; challenge, changed layout or empty search cannot establish zero sellers."
+  },
+  {
+    "product_id": "magnetic-cable-clips",
+    "channel": "shopify",
+    "query": "magnetic cable clips",
+    "evidence_url": "https://www.google.com/search?q=%22magnetic+cable+clips%22+India+buy+Shopify",
+    "checked_at": "2026-09-21T10:46:41.042945+00:00",
+    "status": "blocked",
+    "leads": [],
+    "response_sha256": "af6da28c4220a5bce60db4cf71455632d8aeda26dae1ff96f789741e015b8e5a",
+    "reason": "No parseable listings; challenge, changed layout or empty search cannot establish zero sellers."
+  },
+  {
+    "product_id": "reusable-lint-roller",
+    "channel": "amazon_in",
+    "query": "reusable lint roller",
+    "evidence_url": "https://www.amazon.in/s?k=reusable+lint+roller",
+    "checked_at": "2026-09-21T10:46:42.064088+00:00",
+    "status": "blocked",
+    "leads": [],
+    "reason": "HTTP 503"
+  },
+  {
+    "product_id": "reusable-lint-roller",
+    "channel": "flipkart",
+    "query": "reusable lint roller",
+    "evidence_url": "https://www.flipkart.com/search?q=reusable+lint+roller",
+    "checked_at": "2026-09-21T10:46:42.367052+00:00",
+    "status": "blocked",
+    "leads": [],
+    "reason": "HTTP 403"
+  },
+  {
+    "product_id": "reusable-lint-roller",
+    "channel": "instagram",
+    "query": "reusable lint roller",
+    "evidence_url": "https://www.google.com/search?q=%22reusable+lint+roller%22+site%3Ainstagram.com+India+buy",
+    "checked_at": "2026-09-21T10:46:42.534615+00:00",
+    "status": "blocked",
+    "leads": [],
+    "response_sha256": "2aa7d77113e45b57aec35025a3b97b4bacb978989e98369a5ec96675cf8d1fa6",
+    "reason": "No parseable listings; challenge, changed layout or empty search cannot establish zero sellers."
+  },
+  {
+    "product_id": "reusable-lint-roller",
+    "channel": "shopify",
+    "query": "reusable lint roller",
+    "evidence_url": "https://www.google.com/search?q=%22reusable+lint+roller%22+India+buy+Shopify",
+    "checked_at": "2026-09-21T10:46:43.054247+00:00",
+    "status": "blocked",
+    "leads": [],
+    "response_sha256": "09237c38aac3e5b7d0b8b263d6803c9e209094ba46db2f3d9813106872676acf",
+    "reason": "No parseable listings; challenge, changed layout or empty search cannot establish zero sellers."
+  }
+]

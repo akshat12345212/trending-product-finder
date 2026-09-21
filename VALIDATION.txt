@@ -1,0 +1,32 @@
+test_changed_query_gets_distinct_state_and_new_run (test_apify.ApifyTests) ... ok
+test_failed_run_is_event_only_and_resume_state_prevents_start (test_apify.ApifyTests) ... ok
+test_invalid_numbers_dataset_and_slideshow_are_safe (test_apify.ApifyTests) ... ok
+test_missing_credentials_is_blocked_without_videos (test_apify.ApifyTests) ... ok
+test_pagination_fetches_all_pages (test_apify.ApifyTests) ... ok
+test_saved_failed_run_emits_event_without_restart (test_apify.ApifyTests) ... ok
+test_tiktok_normalization_and_raw_provenance (test_apify.ApifyTests) ... ok
+test_tiny_budget_blocks_without_provider_start (test_apify.ApifyTests) ... ok
+test_uncertain_start_is_durable_and_not_retried (test_apify.ApifyTests) ... ok
+test_youtube_short_and_unknown_country (test_apify.ApifyTests) ... ok
+test_empty_evidence_cannot_become_qualified_and_html_is_escaped (test_cli.ExportTests) ... ok
+test_blocked_or_stale_channel_coverage_blocks_india_but_preserves_collection (test_engine.EngineTests) ... ok
+test_creator_cap_is_per_platform_namespace_and_audited (test_engine.EngineTests) ... ok
+test_duplicate_ids_urls_and_tracking_aliases_cannot_inflate (test_engine.EngineTests) ... ok
+test_estimate_requires_complete_checks_and_duplicate_prefers_fresh_observation (test_engine.EngineTests) ... ok
+test_exact_boundaries_qualify_both_lists_and_keep_all_ids (test_engine.EngineTests) ... ok
+test_exact_video_and_metric_boundaries (test_engine.EngineTests) ... ok
+test_freshness_future_and_country_proof_are_audited (test_engine.EngineTests) ... ok
+test_non_boolean_seller_flags_are_unknown_and_credentials_invalid (test_engine.EngineTests) ... ok
+test_shipping_and_seller_limits_and_no_output_list_cap (test_engine.EngineTests) ... ok
+test_shipping_is_required_for_international_and_unknown_country_still_counts_video (test_engine.EngineTests) ... ok
+test_shipping_rejection_is_explicit_and_unknown_sellers_block_india (test_engine.EngineTests) ... ok
+test_filter_follows_observed_page_endpoint (test_public.PublicParserTests) ... ok
+test_product_matching_has_word_boundaries (test_public.PublicParserTests) ... ok
+test_rounded_counts_are_unknown (test_public.PublicParserTests) ... ok
+test_search_dedup_and_short_type (test_public.PublicParserTests) ... ok
+test_watch_does_not_infer_country_from_availability (test_public.PublicParserTests) ... ok
+
+----------------------------------------------------------------------
+Ran 27 tests in 0.066s
+
+OK

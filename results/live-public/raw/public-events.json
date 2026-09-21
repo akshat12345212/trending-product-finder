@@ -1,0 +1,87 @@
+[
+  {
+    "platform": "tiktok",
+    "status": "blocked",
+    "url": "https://www.tiktok.com/search?q=trending%20products",
+    "reason": "public request failed (curl code 28)",
+    "observed_at": "2026-09-21T10:45:26.434735+00:00"
+  },
+  {
+    "platform": "youtube",
+    "product_id": "heatless-curling-rod",
+    "url": "https://www.youtube.com/results?search_query=heatless+curling+rod+shorts&sp=EgQIBBAJ",
+    "status": "partial",
+    "discovered_count": 25,
+    "filters_applied": [
+      "This month",
+      "Shorts"
+    ],
+    "observed_at": "2026-09-21T10:45:39.215631+00:00",
+    "reason": "First public search page only; no pagination. Some engagement and country fields may be unavailable."
+  },
+  {
+    "platform": "youtube",
+    "product_id": "pet-hair-remover",
+    "url": "https://www.youtube.com/results?search_query=pet+hair+remover+shorts&sp=EgQIBBAJ",
+    "status": "partial",
+    "discovered_count": 25,
+    "filters_applied": [
+      "This month",
+      "Shorts"
+    ],
+    "observed_at": "2026-09-21T10:45:50.425144+00:00",
+    "reason": "First public search page only; no pagination. Some engagement and country fields may be unavailable."
+  },
+  {
+    "platform": "youtube",
+    "product_id": "silicone-faucet-mat",
+    "url": "https://www.youtube.com/results?search_query=silicone+faucet+mat+shorts&sp=EgQIBBAJ",
+    "status": "partial",
+    "discovered_count": 19,
+    "filters_applied": [
+      "This month",
+      "Shorts"
+    ],
+    "observed_at": "2026-09-21T10:45:59.458875+00:00",
+    "reason": "First public search page only; no pagination. Some engagement and country fields may be unavailable."
+  },
+  {
+    "platform": "youtube",
+    "product_id": "compression-packing-cubes",
+    "url": "https://www.youtube.com/results?search_query=compression+packing+cubes+shorts&sp=EgQIBBAJ",
+    "status": "partial",
+    "discovered_count": 25,
+    "filters_applied": [
+      "This month",
+      "Shorts"
+    ],
+    "observed_at": "2026-09-21T10:46:10.973594+00:00",
+    "reason": "First public search page only; no pagination. Some engagement and country fields may be unavailable."
+  },
+  {
+    "platform": "youtube",
+    "product_id": "magnetic-cable-clips",
+    "url": "https://www.youtube.com/results?search_query=magnetic+cable+clips+shorts&sp=EgQIBBAJ",
+    "status": "partial",
+    "discovered_count": 25,
+    "filters_applied": [
+      "This month",
+      "Shorts"
+    ],
+    "observed_at": "2026-09-21T10:46:23.300098+00:00",
+    "reason": "First public search page only; no pagination. Some engagement and country fields may be unavailable."
+  },
+  {
+    "platform": "youtube",
+    "product_id": "reusable-lint-roller",
+    "url": "https://www.youtube.com/results?search_query=reusable+lint+roller+shorts&sp=EgQIBBAJ",
+    "status": "partial",
+    "discovered_count": 25,
+    "filters_applied": [
+      "This month",
+      "Shorts"
+    ],
+    "observed_at": "2026-09-21T10:46:34.492631+00:00",
+    "reason": "First public search page only; no pagination. Some engagement and country fields may be unavailable."
+  }
+]

@@ -1,0 +1,146 @@
+[
+  {
+    "id": "heatless-curling-rod",
+    "name": "heatless curling rod",
+    "aliases": [
+      "heatless curler",
+      "heatless curls"
+    ],
+    "candidate_origin": "Pilot search hypothesis, not a verified trend",
+    "shipping": {
+      "status": "pending",
+      "evidence_url": null,
+      "weight_kg": null,
+      "longest_side_cm": null,
+      "fragile": null,
+      "restricted": null
+    },
+    "hero": {
+      "problem": "Styling hair without a powered curling tool.",
+      "demonstration": "Before and after curl demonstration.",
+      "differentiation": "Fit, comfort and clear instructions need customer validation."
+    },
+    "seller_checks": [],
+    "sellers": []
+  },
+  {
+    "id": "pet-hair-remover",
+    "name": "pet hair remover",
+    "aliases": [
+      "pet hair roller",
+      "pet hair removal"
+    ],
+    "candidate_origin": "Pilot search hypothesis, not a verified trend",
+    "shipping": {
+      "status": "pending",
+      "evidence_url": null,
+      "weight_kg": null,
+      "longest_side_cm": null,
+      "fragile": null,
+      "restricted": null
+    },
+    "hero": {
+      "problem": "Removing pet hair from upholstery.",
+      "demonstration": "One-pass cleaning of a fabric surface.",
+      "differentiation": "Reusable mechanism and pet-household positioning need validation."
+    },
+    "seller_checks": [],
+    "sellers": []
+  },
+  {
+    "id": "silicone-faucet-mat",
+    "name": "silicone faucet mat",
+    "aliases": [
+      "faucet splash guard",
+      "faucet mat"
+    ],
+    "candidate_origin": "Pilot search hypothesis, not a verified trend",
+    "shipping": {
+      "status": "pending",
+      "evidence_url": null,
+      "weight_kg": null,
+      "longest_side_cm": null,
+      "fragile": null,
+      "restricted": null
+    },
+    "hero": {
+      "problem": "Keeping the area behind a sink tap dry.",
+      "demonstration": "Water drainage demonstration.",
+      "differentiation": "Tap-fit range and drainage angle need validation."
+    },
+    "seller_checks": [],
+    "sellers": []
+  },
+  {
+    "id": "compression-packing-cubes",
+    "name": "compression packing cubes",
+    "aliases": [
+      "compression packing cube",
+      "compression cube"
+    ],
+    "candidate_origin": "Pilot search hypothesis, not a verified trend",
+    "shipping": {
+      "status": "pending",
+      "evidence_url": null,
+      "weight_kg": null,
+      "longest_side_cm": null,
+      "fragile": null,
+      "restricted": null
+    },
+    "hero": {
+      "problem": "Fitting clothes neatly into carry-on luggage.",
+      "demonstration": "Compare the same clothing before and after compression.",
+      "differentiation": "Specific carry-on dimensions and fabric quality need validation."
+    },
+    "seller_checks": [],
+    "sellers": []
+  },
+  {
+    "id": "magnetic-cable-clips",
+    "name": "magnetic cable clips",
+    "aliases": [
+      "magnetic cable organizer",
+      "magnetic cable holder"
+    ],
+    "candidate_origin": "Pilot search hypothesis, not a verified trend",
+    "shipping": {
+      "status": "pending",
+      "evidence_url": null,
+      "weight_kg": null,
+      "longest_side_cm": null,
+      "fragile": null,
+      "restricted": null
+    },
+    "hero": {
+      "problem": "Preventing charging cables from falling behind a desk.",
+      "demonstration": "One-handed cable placement demonstration.",
+      "differentiation": "Adhesive quality and cable-size fit need validation; magnet shipping review required."
+    },
+    "seller_checks": [],
+    "sellers": []
+  },
+  {
+    "id": "reusable-lint-roller",
+    "name": "reusable lint roller",
+    "aliases": [
+      "washable lint roller",
+      "gel lint roller"
+    ],
+    "candidate_origin": "Pilot search hypothesis, not a verified trend",
+    "shipping": {
+      "status": "pending",
+      "evidence_url": null,
+      "weight_kg": null,
+      "longest_side_cm": null,
+      "fragile": null,
+      "restricted": null
+    },
+    "hero": {
+      "problem": "Removing lint without disposable adhesive sheets.",
+      "demonstration": "Pickup, rinse and reuse demonstration.",
+      "differentiation": "Travel size and cleaning durability need validation."
+    },
+    "seller_checks": [],
+    "sellers": []
+  }
+]

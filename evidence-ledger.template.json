@@ -1,0 +1,27 @@
+{
+  "notes": "PLACEHOLDERS ONLY. Copy this file and fill it from inspected source evidence; do not mark complete/verified without evidence.",
+  "candidates": [
+    {
+      "id": "heatless-curling-rod",
+      "shipping": {
+        "status": "pending",
+        "evidence_url": null,
+        "weight_kg": null,
+        "longest_side_cm": null,
+        "fragile": null,
+        "restricted": null,
+        "notes": "Record packed measurements, intended origin/destinations, date and route restriction sources."
+      },
+      "seller_checks": [
+        {"channel": "amazon_in", "status": "partial", "query": "heatless curling rod; aliases", "checked_at": null, "evidence_url": null, "notes": "Record scope and unresolved matching listings."},
+        {"channel": "flipkart", "status": "partial", "query": "heatless curling rod; aliases", "checked_at": null, "evidence_url": null},
+        {"channel": "instagram", "status": "partial", "query": "heatless curling rod India; aliases", "checked_at": null, "evidence_url": null},
+        {"channel": "shopify", "status": "partial", "query": "heatless curling rod India buy; aliases", "checked_at": null, "evidence_url": null}
+      ],
+      "sellers": [
+        {"seller_id": "REPLACE_WITH_CANONICAL_BUSINESS_ID", "name": null, "channel": "amazon_in", "url": null, "active": null, "india_delivery": null, "checked_at": null, "notes": "One canonical business ID across multiple storefronts. Never use an ASIN as seller identity."}
+      ]
+    }
+  ],
+  "videos": []
+}

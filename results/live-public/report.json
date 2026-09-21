@@ -1,0 +1,4098 @@
+{
+  "summary": {
+    "candidate_count": 6,
+    "international_count": 0,
+    "india_count": 0
+  },
+  "thresholds": {
+    "lookback_days": 30,
+    "observed_max_age_days": 7,
+    "minimum_views": 10000,
+    "minimum_engagement_rate": 0.04,
+    "minimum_unique_videos": 50,
+    "minimum_platforms": 2,
+    "minimum_videos_per_platform": 5,
+    "minimum_countries": 5,
+    "minimum_videos_per_country": 3,
+    "minimum_creators": 10,
+    "maximum_videos_per_creator": 5,
+    "shipping_max_weight_kg": 1.0,
+    "shipping_max_longest_side_cm": 40.0,
+    "seller_check_fresh_days": 7,
+    "maximum_india_sellers": 5
+  },
+  "collection": {
+    "mode": "public",
+    "events": [
+      {
+        "platform": "tiktok",
+        "status": "blocked",
+        "url": "https://www.tiktok.com/search?q=trending%20products",
+        "reason": "public request failed (curl code 28)",
+        "observed_at": "2026-09-21T10:45:26.434735+00:00"
+      },
+      {
+        "platform": "youtube",
+        "product_id": "heatless-curling-rod",
+        "url": "https://www.youtube.com/results?search_query=heatless+curling+rod+shorts&sp=EgQIBBAJ",
+        "status": "partial",
+        "discovered_count": 25,
+        "filters_applied": [
+          "This month",
+          "Shorts"
+        ],
+        "observed_at": "2026-09-21T10:45:39.215631+00:00",
+        "reason": "First public search page only; no pagination. Some engagement and country fields may be unavailable."
+      },
+      {
+        "platform": "youtube",
+        "product_id": "pet-hair-remover",
+        "url": "https://www.youtube.com/results?search_query=pet+hair+remover+shorts&sp=EgQIBBAJ",
+        "status": "partial",
+        "discovered_count": 25,
+        "filters_applied": [
+          "This month",
+          "Shorts"
+        ],
+        "observed_at": "2026-09-21T10:45:50.425144+00:00",
+        "reason": "First public search page only; no pagination. Some engagement and country fields may be unavailable."
+      },
+      {
+        "platform": "youtube",
+        "product_id": "silicone-faucet-mat",
+        "url": "https://www.youtube.com/results?search_query=silicone+faucet+mat+shorts&sp=EgQIBBAJ",
+        "status": "partial",
+        "discovered_count": 19,
+        "filters_applied": [
+          "This month",
+          "Shorts"
+        ],
+        "observed_at": "2026-09-21T10:45:59.458875+00:00",
+        "reason": "First public search page only; no pagination. Some engagement and country fields may be unavailable."
+      },
+      {
+        "platform": "youtube",
+        "product_id": "compression-packing-cubes",
+        "url": "https://www.youtube.com/results?search_query=compression+packing+cubes+shorts&sp=EgQIBBAJ",
+        "status": "partial",
+        "discovered_count": 25,
+        "filters_applied": [
+          "This month",
+          "Shorts"
+        ],
+        "observed_at": "2026-09-21T10:46:10.973594+00:00",
+        "reason": "First public search page only; no pagination. Some engagement and country fields may be unavailable."
+      },
+      {
+        "platform": "youtube",
+        "product_id": "magnetic-cable-clips",
+        "url": "https://www.youtube.com/results?search_query=magnetic+cable+clips+shorts&sp=EgQIBBAJ",
+        "status": "partial",
+        "discovered_count": 25,
+        "filters_applied": [
+          "This month",
+          "Shorts"
+        ],
+        "observed_at": "2026-09-21T10:46:23.300098+00:00",
+        "reason": "First public search page only; no pagination. Some engagement and country fields may be unavailable."
+      },
+      {
+        "platform": "youtube",
+        "product_id": "reusable-lint-roller",
+        "url": "https://www.youtube.com/results?search_query=reusable+lint+roller+shorts&sp=EgQIBBAJ",
+        "status": "partial",
+        "discovered_count": 25,
+        "filters_applied": [
+          "This month",
+          "Shorts"
+        ],
+        "observed_at": "2026-09-21T10:46:34.492631+00:00",
+        "reason": "First public search page only; no pagination. Some engagement and country fields may be unavailable."
+      },
+      {
+        "product_id": "heatless-curling-rod",
+        "channel": "amazon_in",
+        "query": "heatless curling rod",
+        "evidence_url": "https://www.amazon.in/s?k=heatless+curling+rod",
+        "checked_at": "2026-09-21T10:46:34.495173+00:00",
+        "status": "blocked",
+        "leads": [],
+        "reason": "HTTP 503"
+      },
+      {
+        "product_id": "heatless-curling-rod",
+        "channel": "flipkart",
+        "query": "heatless curling rod",
+        "evidence_url": "https://www.flipkart.com/search?q=heatless+curling+rod",
+        "checked_at": "2026-09-21T10:46:34.711688+00:00",
+        "status": "blocked",
+        "leads": [],
+        "reason": "HTTP 403"
+      },
+      {
+        "product_id": "heatless-curling-rod",
+        "channel": "instagram",
+        "query": "heatless curling rod",
+        "evidence_url": "https://www.google.com/search?q=%22heatless+curling+rod%22+site%3Ainstagram.com+India+buy",
+        "checked_at": "2026-09-21T10:46:35.101609+00:00",
+        "status": "blocked",
+        "leads": [],
+        "response_sha256": "9a993fa154f9e74a456aa6f07e3f489834580559165883b6477a5fff7882e0a4",
+        "reason": "No parseable listings; challenge, changed layout or empty search cannot establish zero sellers."
+      },
+      {
+        "product_id": "heatless-curling-rod",
+        "channel": "shopify",
+        "query": "heatless curling rod",
+        "evidence_url": "https://www.google.com/search?q=%22heatless+curling+rod%22+India+buy+Shopify",
+        "checked_at": "2026-09-21T10:46:36.058514+00:00",
+        "status": "blocked",
+        "leads": [],
+        "response_sha256": "943ceeb2197e80434c82d04e1df1694d74ce2bc5365ef761b8bd11dccb04168a",
+        "reason": "No parseable listings; challenge, changed layout or empty search cannot establish zero sellers."
+      },
+      {
+        "product_id": "pet-hair-remover",
+        "channel": "amazon_in",
+        "query": "pet hair remover",
+        "evidence_url": "https://www.amazon.in/s?k=pet+hair+remover",
+        "checked_at": "2026-09-21T10:46:36.576594+00:00",
+        "status": "blocked",
+        "leads": [],
+        "reason": "HTTP 503"
+      },
+      {
+        "product_id": "pet-hair-remover",
+        "channel": "flipkart",
+        "query": "pet hair remover",
+        "evidence_url": "https://www.flipkart.com/search?q=pet+hair+remover",
+        "checked_at": "2026-09-21T10:46:36.776465+00:00",
+        "status": "blocked",
+        "leads": [],
+        "reason": "HTTP 403"
+      },
+      {
+        "product_id": "pet-hair-remover",
+        "channel": "instagram",
+        "query": "pet hair remover",
+        "evidence_url": "https://www.google.com/search?q=%22pet+hair+remover%22+site%3Ainstagram.com+India+buy",
+        "checked_at": "2026-09-21T10:46:37.032390+00:00",
+        "status": "blocked",
+        "leads": [],
+        "response_sha256": "327f43495a879cb3086cb8c1407f3a3521fdca68a210520da18a5584adf09aa9",
+        "reason": "No parseable listings; challenge, changed layout or empty search cannot establish zero sellers."
+      },
+      {
+        "product_id": "pet-hair-remover",
+        "channel": "shopify",
+        "query": "pet hair remover",
+        "evidence_url": "https://www.google.com/search?q=%22pet+hair+remover%22+India+buy+Shopify",
+        "checked_at": "2026-09-21T10:46:37.284976+00:00",
+        "status": "blocked",
+        "leads": [],
+        "response_sha256": "38cfe99de67c519df79d6e34e3e91e23db6174600060d9272dfb62f2178743ea",
+        "reason": "No parseable listings; challenge, changed layout or empty search cannot establish zero sellers."
+      },
+      {
+        "product_id": "silicone-faucet-mat",
+        "channel": "amazon_in",
+        "query": "silicone faucet mat",
+        "evidence_url": "https://www.amazon.in/s?k=silicone+faucet+mat",
+        "checked_at": "2026-09-21T10:46:37.534632+00:00",
+        "status": "blocked",
+        "leads": [],
+        "reason": "HTTP 503"
+      },
+      {
+        "product_id": "silicone-faucet-mat",
+        "channel": "flipkart",
+        "query": "silicone faucet mat",
+        "evidence_url": "https://www.flipkart.com/search?q=silicone+faucet+mat",
+        "checked_at": "2026-09-21T10:46:37.735862+00:00",
+        "status": "blocked",
+        "leads": [],
+        "reason": "HTTP 403"
+      },
+      {
+        "product_id": "silicone-faucet-mat",
+        "channel": "instagram",
+        "query": "silicone faucet mat",
+        "evidence_url": "https://www.google.com/search?q=%22silicone+faucet+mat%22+site%3Ainstagram.com+India+buy",
+        "checked_at": "2026-09-21T10:46:37.897276+00:00",
+        "status": "blocked",
+        "leads": [],
+        "response_sha256": "6988795890fe098f875712acf31592807a8ab857c2f2d16e375379ece7b136d8",
+        "reason": "No parseable listings; challenge, changed layout or empty search cannot establish zero sellers."
+      },
+      {
+        "product_id": "silicone-faucet-mat",
+        "channel": "shopify",
+        "query": "silicone faucet mat",
+        "evidence_url": "https://www.google.com/search?q=%22silicone+faucet+mat%22+India+buy+Shopify",
+        "checked_at": "2026-09-21T10:46:38.557434+00:00",
+        "status": "blocked",
+        "leads": [],
+        "response_sha256": "41655ee6a0da09f431f523a52d778f5612c2db887a09bcdebfb8e4e8d4c02523",
+        "reason": "No parseable listings; challenge, changed layout or empty search cannot establish zero sellers."
+      },
+      {
+        "product_id": "compression-packing-cubes",
+        "channel": "amazon_in",
+        "query": "compression packing cubes",
+        "evidence_url": "https://www.amazon.in/s?k=compression+packing+cubes",
+        "checked_at": "2026-09-21T10:46:38.933854+00:00",
+        "status": "blocked",
+        "leads": [],
+        "reason": "HTTP 503"
+      },
+      {
+        "product_id": "compression-packing-cubes",
+        "channel": "flipkart",
+        "query": "compression packing cubes",
+        "evidence_url": "https://www.flipkart.com/search?q=compression+packing+cubes",
+        "checked_at": "2026-09-21T10:46:39.131161+00:00",
+        "status": "blocked",
+        "leads": [],
+        "reason": "HTTP 403"
+      },
+      {
+        "product_id": "compression-packing-cubes",
+        "channel": "instagram",
+        "query": "compression packing cubes",
+        "evidence_url": "https://www.google.com/search?q=%22compression+packing+cubes%22+site%3Ainstagram.com+India+buy",
+        "checked_at": "2026-09-21T10:46:39.327739+00:00",
+        "status": "blocked",
+        "leads": [],
+        "response_sha256": "075d2107e0a23ba070b6f541a835a649e8efeed6d862b73ff0a0f193fc3566ff",
+        "reason": "No parseable listings; challenge, changed layout or empty search cannot establish zero sellers."
+      },
+      {
+        "product_id": "compression-packing-cubes",
+        "channel": "shopify",
+        "query": "compression packing cubes",
+        "evidence_url": "https://www.google.com/search?q=%22compression+packing+cubes%22+India+buy+Shopify",
+        "checked_at": "2026-09-21T10:46:39.722170+00:00",
+        "status": "blocked",
+        "leads": [],
+        "response_sha256": "842c1f83e5f7ef482493464854fda77e81ccfaf1664551eba16cc77ba5770962",
+        "reason": "No parseable listings; challenge, changed layout or empty search cannot establish zero sellers."
+      },
+      {
+        "product_id": "magnetic-cable-clips",
+        "channel": "amazon_in",
+        "query": "magnetic cable clips",
+        "evidence_url": "https://www.amazon.in/s?k=magnetic+cable+clips",
+        "checked_at": "2026-09-21T10:46:39.952817+00:00",
+        "status": "blocked",
+        "leads": [],
+        "reason": "HTTP 503"
+      },
+      {
+        "product_id": "magnetic-cable-clips",
+        "channel": "flipkart",
+        "query": "magnetic cable clips",
+        "evidence_url": "https://www.flipkart.com/search?q=magnetic+cable+clips",
+        "checked_at": "2026-09-21T10:46:40.141003+00:00",
+        "status": "blocked",
+        "leads": [],
+        "reason": "HTTP 403"
+      },
+      {
+        "product_id": "magnetic-cable-clips",
+        "channel": "instagram",
+        "query": "magnetic cable clips",
+        "evidence_url": "https://www.google.com/search?q=%22magnetic+cable+clips%22+site%3Ainstagram.com+India+buy",
+        "checked_at": "2026-09-21T10:46:40.301861+00:00",
+        "status": "blocked",
+        "leads": [],
+        "response_sha256": "fdc4f39bf567e0402f7986bc13e2a3f830997422773fc2fd072ea232da99916a",
+        "reason": "No parseable listings; challenge, changed layout or empty search cannot establish zero sellers."
+      },
+      {
+        "product_id": "magnetic-cable-clips",
+        "channel": "shopify",
+        "query": "magnetic cable clips",
+        "evidence_url": "https://www.google.com/search?q=%22magnetic+cable+clips%22+India+buy+Shopify",
+        "checked_at": "2026-09-21T10:46:41.042945+00:00",
+        "status": "blocked",
+        "leads": [],
+        "response_sha256": "af6da28c4220a5bce60db4cf71455632d8aeda26dae1ff96f789741e015b8e5a",
+        "reason": "No parseable listings; challenge, changed layout or empty search cannot establish zero sellers."
+      },
+      {
+        "product_id": "reusable-lint-roller",
+        "channel": "amazon_in",
+        "query": "reusable lint roller",
+        "evidence_url": "https://www.amazon.in/s?k=reusable+lint+roller",
+        "checked_at": "2026-09-21T10:46:42.064088+00:00",
+        "status": "blocked",
+        "leads": [],
+        "reason": "HTTP 503"
+      },
+      {
+        "product_id": "reusable-lint-roller",
+        "channel": "flipkart",
+        "query": "reusable lint roller",
+        "evidence_url": "https://www.flipkart.com/search?q=reusable+lint+roller",
+        "checked_at": "2026-09-21T10:46:42.367052+00:00",
+        "status": "blocked",
+        "leads": [],
+        "reason": "HTTP 403"
+      },
+      {
+        "product_id": "reusable-lint-roller",
+        "channel": "instagram",
+        "query": "reusable lint roller",
+        "evidence_url": "https://www.google.com/search?q=%22reusable+lint+roller%22+site%3Ainstagram.com+India+buy",
+        "checked_at": "2026-09-21T10:46:42.534615+00:00",
+        "status": "blocked",
+        "leads": [],
+        "response_sha256": "2aa7d77113e45b57aec35025a3b97b4bacb978989e98369a5ec96675cf8d1fa6",
+        "reason": "No parseable listings; challenge, changed layout or empty search cannot establish zero sellers."
+      },
+      {
+        "product_id": "reusable-lint-roller",
+        "channel": "shopify",
+        "query": "reusable lint roller",
+        "evidence_url": "https://www.google.com/search?q=%22reusable+lint+roller%22+India+buy+Shopify",
+        "checked_at": "2026-09-21T10:46:43.054247+00:00",
+        "status": "blocked",
+        "leads": [],
+        "response_sha256": "09237c38aac3e5b7d0b8b263d6803c9e209094ba46db2f3d9813106872676acf",
+        "reason": "No parseable listings; challenge, changed layout or empty search cannot establish zero sellers."
+      }
+    ],
+    "started_from": "/Users/akshatgupta/Documents/Codex/2026-09-21/https-docs-google-com-document-d/outputs/trending-product-finder/candidates.json",
+    "completed_at": "2026-09-21T10:46:43.581753+00:00"
+  },
+  "candidates": [
+    {
+      "id": "compression-packing-cubes",
+      "name": "compression packing cubes",
+      "status": "pending",
+      "international": false,
+      "india": false,
+      "reasons": [
+        "fewer than 10 platform-namespaced creators",
+        "fewer than 2 platforms with 5 qualifying videos",
+        "fewer than 5 countries with 3 qualifying videos",
+        "fewer than 50 unique qualifying videos",
+        "four fresh channel checks not complete",
+        "fragile must be false",
+        "international qualification missing",
+        "longest side exceeds shipping limit or is invalid",
+        "restricted must be false",
+        "shipping evidence URL missing or invalid",
+        "shipping is not verified",
+        "weight exceeds shipping limit or is invalid"
+      ],
+      "international_reasons": [
+        "fewer than 10 platform-namespaced creators",
+        "fewer than 2 platforms with 5 qualifying videos",
+        "fewer than 5 countries with 3 qualifying videos",
+        "fewer than 50 unique qualifying videos",
+        "fragile must be false",
+        "longest side exceeds shipping limit or is invalid",
+        "restricted must be false",
+        "shipping evidence URL missing or invalid",
+        "shipping is not verified",
+        "weight exceeds shipping limit or is invalid"
+      ],
+      "india_reasons": [
+        "four fresh channel checks not complete",
+        "international qualification missing"
+      ],
+      "video_evaluations": [
+        {
+          "id": "jcteOW8mMAk",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/jcteOW8mMAk",
+          "canonical_url": "https://www.youtube.com/shorts/jcteOW8mMAk",
+          "creator_id": "UCtNlV90yuk3YWAQxRKJeBVw",
+          "country": null,
+          "country_eligible": false,
+          "views": 1931,
+          "likes": 68,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "QoQujgPxQrA",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/QoQujgPxQrA",
+          "canonical_url": "https://www.youtube.com/shorts/QoQujgPxQrA",
+          "creator_id": "UCo4RE90M8McANKDLrRwjFbw",
+          "country": null,
+          "country_eligible": false,
+          "views": 491,
+          "likes": 2,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "5QIUH-EmZzM",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/5QIUH-EmZzM",
+          "canonical_url": "https://www.youtube.com/shorts/5QIUH-EmZzM",
+          "creator_id": "UC3eX-ZUCxWZJDgzrzqzapCA",
+          "country": null,
+          "country_eligible": false,
+          "views": 19,
+          "likes": 0,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "64-7wL4RyKY",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/64-7wL4RyKY",
+          "canonical_url": "https://www.youtube.com/shorts/64-7wL4RyKY",
+          "creator_id": "UC3eX-ZUCxWZJDgzrzqzapCA",
+          "country": null,
+          "country_eligible": false,
+          "views": 15,
+          "likes": 0,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "IP1jxQeX2hE",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/IP1jxQeX2hE",
+          "canonical_url": "https://www.youtube.com/shorts/IP1jxQeX2hE",
+          "creator_id": "UCZQTP2tZEKArRvCIoMx1gmg",
+          "country": null,
+          "country_eligible": false,
+          "views": 163,
+          "likes": 0,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "3NOioAZIjNU",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/3NOioAZIjNU",
+          "canonical_url": "https://www.youtube.com/shorts/3NOioAZIjNU",
+          "creator_id": "UCf5wNQMmxthLiKZh4LOfJSw",
+          "country": null,
+          "country_eligible": false,
+          "views": 5014,
+          "likes": 282,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "OKj7-HhIIIk",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/OKj7-HhIIIk",
+          "canonical_url": "https://www.youtube.com/shorts/OKj7-HhIIIk",
+          "creator_id": "UCc3KQ2N3_lpu6IxSBUQpL6w",
+          "country": null,
+          "country_eligible": false,
+          "views": 154,
+          "likes": 3,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "rXZc7CjX-Yo",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/rXZc7CjX-Yo",
+          "canonical_url": "https://www.youtube.com/shorts/rXZc7CjX-Yo",
+          "creator_id": "UCN-jsqZ_AdqKKJdhXIGS08A",
+          "country": null,
+          "country_eligible": false,
+          "views": 231,
+          "likes": 16,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "-F2BDn9L5B8",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/-F2BDn9L5B8",
+          "canonical_url": "https://www.youtube.com/shorts/-F2BDn9L5B8",
+          "creator_id": "UCtqQeyQlUOvc94r7fhT-RQQ",
+          "country": null,
+          "country_eligible": false,
+          "views": 16,
+          "likes": 0,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "jKjd0F8sffU",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/jKjd0F8sffU",
+          "canonical_url": "https://www.youtube.com/shorts/jKjd0F8sffU",
+          "creator_id": "UCInwIGJP4boSOmm3KGQ8xvg",
+          "country": null,
+          "country_eligible": false,
+          "views": 10,
+          "likes": 0,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "xex3jw7eVi8",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/xex3jw7eVi8",
+          "canonical_url": "https://www.youtube.com/shorts/xex3jw7eVi8",
+          "creator_id": "UCKSb3IaBccPX9u8t46DonnQ",
+          "country": null,
+          "country_eligible": false,
+          "views": 671,
+          "likes": 5,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "ekzYkFqhIeY",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/ekzYkFqhIeY",
+          "canonical_url": "https://www.youtube.com/shorts/ekzYkFqhIeY",
+          "creator_id": "UC3eX-ZUCxWZJDgzrzqzapCA",
+          "country": null,
+          "country_eligible": false,
+          "views": 0,
+          "likes": 0,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "He1l-36JnBw",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/He1l-36JnBw",
+          "canonical_url": "https://www.youtube.com/shorts/He1l-36JnBw",
+          "creator_id": "UCHQKu1memmwVcFGIdsPFQ4g",
+          "country": null,
+          "country_eligible": false,
+          "views": 174,
+          "likes": 1,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "rsmGPLIj7VU",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/rsmGPLIj7VU",
+          "canonical_url": "https://www.youtube.com/shorts/rsmGPLIj7VU",
+          "creator_id": "UC7mxZ3BexIgcWkSO7SxyVEA",
+          "country": null,
+          "country_eligible": false,
+          "views": 231,
+          "likes": 0,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "_WPJkOgW4Ro",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/_WPJkOgW4Ro",
+          "canonical_url": "https://www.youtube.com/shorts/_WPJkOgW4Ro",
+          "creator_id": "UC5XIgzc2Qm7BhWl1vjyQoQQ",
+          "country": null,
+          "country_eligible": false,
+          "views": 3953,
+          "likes": 242,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "jFnBETWRvR0",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/jFnBETWRvR0",
+          "canonical_url": "https://www.youtube.com/shorts/jFnBETWRvR0",
+          "creator_id": "UCMXFDWkgqscXm0UQMrpY3GA",
+          "country": null,
+          "country_eligible": false,
+          "views": 1024,
+          "likes": 10,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "5rWJ1EhrPwk",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/5rWJ1EhrPwk",
+          "canonical_url": "https://www.youtube.com/shorts/5rWJ1EhrPwk",
+          "creator_id": "UCbDb4eSLX2NURAdOi4q_-8A",
+          "country": null,
+          "country_eligible": false,
+          "views": 0,
+          "likes": 0,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "iB_zZbgIjq8",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/iB_zZbgIjq8",
+          "canonical_url": "https://www.youtube.com/shorts/iB_zZbgIjq8",
+          "creator_id": "UCbRmj1cE5n0b2ob-lfJKekw",
+          "country": null,
+          "country_eligible": false,
+          "views": 1365,
+          "likes": 7,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "wVcOwU1tcUA",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/wVcOwU1tcUA",
+          "canonical_url": "https://www.youtube.com/shorts/wVcOwU1tcUA",
+          "creator_id": "UCZQTP2tZEKArRvCIoMx1gmg",
+          "country": null,
+          "country_eligible": false,
+          "views": 191,
+          "likes": 2,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "Ju7uTgO-hFQ",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/Ju7uTgO-hFQ",
+          "canonical_url": "https://www.youtube.com/shorts/Ju7uTgO-hFQ",
+          "creator_id": "UCl44KvZTZTBuaqR24JxuaJA",
+          "country": null,
+          "country_eligible": false,
+          "views": 4,
+          "likes": 0,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "2qzT4tuLfwg",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/2qzT4tuLfwg",
+          "canonical_url": "https://www.youtube.com/shorts/2qzT4tuLfwg",
+          "creator_id": "UCx1qWUNGeULzQvzGgyNBlvg",
+          "country": null,
+          "country_eligible": false,
+          "views": 193,
+          "likes": 4,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "JltUQ3HARjg",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/JltUQ3HARjg",
+          "canonical_url": "https://www.youtube.com/shorts/JltUQ3HARjg",
+          "creator_id": "UC1Y6NUPZnpG-H-H0WBlthdA",
+          "country": null,
+          "country_eligible": false,
+          "views": 26323,
+          "likes": 193,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "VSBxUX60Em8",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/VSBxUX60Em8",
+          "canonical_url": "https://www.youtube.com/shorts/VSBxUX60Em8",
+          "creator_id": "UCgwNcqMPmZ9-QK6OTm6W3iA",
+          "country": null,
+          "country_eligible": false,
+          "views": 63956,
+          "likes": 474,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "Vg1jIaMDipU",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/Vg1jIaMDipU",
+          "canonical_url": "https://www.youtube.com/shorts/Vg1jIaMDipU",
+          "creator_id": "UCgwNcqMPmZ9-QK6OTm6W3iA",
+          "country": null,
+          "country_eligible": false,
+          "views": 22080,
+          "likes": 256,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "pG8t1G5OrXQ",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/pG8t1G5OrXQ",
+          "canonical_url": "https://www.youtube.com/shorts/pG8t1G5OrXQ",
+          "creator_id": "UCREC-PlMGU9vciq9SXOZaEw",
+          "country": null,
+          "country_eligible": false,
+          "views": 1266,
+          "likes": 11,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        }
+      ],
+      "qualifying_video_ids": [],
+      "stats": {
+        "qualifying_video_count": 0,
+        "collected_valid_video_count": 0,
+        "platform_count": 0,
+        "collected_platform_count": 0,
+        "platform_counts": {},
+        "qualifying_platforms": [],
+        "country_count": 0,
+        "collected_country_count": 0,
+        "country_counts": {},
+        "qualifying_countries": [],
+        "creator_count": 0,
+        "estimated_india_seller_count": null,
+        "observed_confirmed_seller_count": 0,
+        "seller_coverage": "unknown"
+      },
+      "shipping_reasons": [
+        "shipping is not verified",
+        "shipping evidence URL missing or invalid",
+        "weight exceeds shipping limit or is invalid",
+        "longest side exceeds shipping limit or is invalid",
+        "fragile must be false",
+        "restricted must be false"
+      ],
+      "hero_hypothesis": {
+        "problem": "Fitting clothes neatly into carry-on luggage.",
+        "demonstration": "Compare the same clothing before and after compression.",
+        "differentiation": "Specific carry-on dimensions and fabric quality need validation."
+      },
+      "shipping_evidence": {
+        "status": "pending",
+        "evidence_url": null,
+        "weight_kg": null,
+        "longest_side_cm": null,
+        "fragile": null,
+        "restricted": null
+      },
+      "seller_evidence": [],
+      "seller_checks": [
+        {
+          "product_id": "compression-packing-cubes",
+          "channel": "amazon_in",
+          "query": "compression packing cubes",
+          "evidence_url": "https://www.amazon.in/s?k=compression+packing+cubes",
+          "checked_at": "2026-09-21T10:46:38.933854+00:00",
+          "status": "blocked",
+          "leads": [],
+          "reason": "HTTP 503"
+        },
+        {
+          "product_id": "compression-packing-cubes",
+          "channel": "flipkart",
+          "query": "compression packing cubes",
+          "evidence_url": "https://www.flipkart.com/search?q=compression+packing+cubes",
+          "checked_at": "2026-09-21T10:46:39.131161+00:00",
+          "status": "blocked",
+          "leads": [],
+          "reason": "HTTP 403"
+        },
+        {
+          "product_id": "compression-packing-cubes",
+          "channel": "instagram",
+          "query": "compression packing cubes",
+          "evidence_url": "https://www.google.com/search?q=%22compression+packing+cubes%22+site%3Ainstagram.com+India+buy",
+          "checked_at": "2026-09-21T10:46:39.327739+00:00",
+          "status": "blocked",
+          "leads": [],
+          "response_sha256": "075d2107e0a23ba070b6f541a835a649e8efeed6d862b73ff0a0f193fc3566ff",
+          "reason": "No parseable listings; challenge, changed layout or empty search cannot establish zero sellers."
+        },
+        {
+          "product_id": "compression-packing-cubes",
+          "channel": "shopify",
+          "query": "compression packing cubes",
+          "evidence_url": "https://www.google.com/search?q=%22compression+packing+cubes%22+India+buy+Shopify",
+          "checked_at": "2026-09-21T10:46:39.722170+00:00",
+          "status": "blocked",
+          "leads": [],
+          "response_sha256": "842c1f83e5f7ef482493464854fda77e81ccfaf1664551eba16cc77ba5770962",
+          "reason": "No parseable listings; challenge, changed layout or empty search cannot establish zero sellers."
+        }
+      ]
+    },
+    {
+      "id": "heatless-curling-rod",
+      "name": "heatless curling rod",
+      "status": "pending",
+      "international": false,
+      "india": false,
+      "reasons": [
+        "fewer than 10 platform-namespaced creators",
+        "fewer than 2 platforms with 5 qualifying videos",
+        "fewer than 5 countries with 3 qualifying videos",
+        "fewer than 50 unique qualifying videos",
+        "four fresh channel checks not complete",
+        "fragile must be false",
+        "international qualification missing",
+        "longest side exceeds shipping limit or is invalid",
+        "restricted must be false",
+        "shipping evidence URL missing or invalid",
+        "shipping is not verified",
+        "weight exceeds shipping limit or is invalid"
+      ],
+      "international_reasons": [
+        "fewer than 10 platform-namespaced creators",
+        "fewer than 2 platforms with 5 qualifying videos",
+        "fewer than 5 countries with 3 qualifying videos",
+        "fewer than 50 unique qualifying videos",
+        "fragile must be false",
+        "longest side exceeds shipping limit or is invalid",
+        "restricted must be false",
+        "shipping evidence URL missing or invalid",
+        "shipping is not verified",
+        "weight exceeds shipping limit or is invalid"
+      ],
+      "india_reasons": [
+        "four fresh channel checks not complete",
+        "international qualification missing"
+      ],
+      "video_evaluations": [
+        {
+          "id": "hsxLQLr-k-4",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/hsxLQLr-k-4",
+          "canonical_url": "https://www.youtube.com/shorts/hsxLQLr-k-4",
+          "creator_id": "UCOQerSb8PBI7L8j3UILwqxg",
+          "country": null,
+          "country_eligible": false,
+          "views": 46,
+          "likes": 1,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "HCtQ2kxxbHw",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/HCtQ2kxxbHw",
+          "canonical_url": "https://www.youtube.com/shorts/HCtQ2kxxbHw",
+          "creator_id": "UC59g5REexaaWd-EKcFfM-_w",
+          "country": null,
+          "country_eligible": false,
+          "views": 1262,
+          "likes": 13,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "DplBWUoYqBk",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/DplBWUoYqBk",
+          "canonical_url": "https://www.youtube.com/shorts/DplBWUoYqBk",
+          "creator_id": "UCF-0qIBfEoXOtO6PQxO_r1Q",
+          "country": null,
+          "country_eligible": false,
+          "views": 201,
+          "likes": 6,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "3piH7WD4TTg",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/3piH7WD4TTg",
+          "canonical_url": "https://www.youtube.com/shorts/3piH7WD4TTg",
+          "creator_id": "UCbBGMxNb2LnBsM_Wut467cQ",
+          "country": null,
+          "country_eligible": false,
+          "views": 38,
+          "likes": 0,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "UBCqaE3vPN0",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/UBCqaE3vPN0",
+          "canonical_url": "https://www.youtube.com/shorts/UBCqaE3vPN0",
+          "creator_id": "UC8usDsSrTGJ4kEKMd7oB1gg",
+          "country": null,
+          "country_eligible": false,
+          "views": 1808549,
+          "likes": 39287,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "87GdM8XbsO0",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/87GdM8XbsO0",
+          "canonical_url": "https://www.youtube.com/shorts/87GdM8XbsO0",
+          "creator_id": "UC_AE72bU1C-y2FqVS5yD_tQ",
+          "country": null,
+          "country_eligible": false,
+          "views": 1329,
+          "likes": 16,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "mulc-W2XThw",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/mulc-W2XThw",
+          "canonical_url": "https://www.youtube.com/shorts/mulc-W2XThw",
+          "creator_id": "UCjreQ1lTqF16q2KyLUErPdA",
+          "country": null,
+          "country_eligible": false,
+          "views": 22,
+          "likes": 2,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "5WjKdIr64NU",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/5WjKdIr64NU",
+          "canonical_url": "https://www.youtube.com/shorts/5WjKdIr64NU",
+          "creator_id": "UCEO-leg2uWYm8LtLoDBNlxg",
+          "country": null,
+          "country_eligible": false,
+          "views": 132,
+          "likes": 2,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "SdOsQ-Mfm4A",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/SdOsQ-Mfm4A",
+          "canonical_url": "https://www.youtube.com/shorts/SdOsQ-Mfm4A",
+          "creator_id": "UCUdOkqGylZpc_4PnYzSXUpg",
+          "country": null,
+          "country_eligible": false,
+          "views": 35,
+          "likes": 3,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "Q1OlF6dEYOE",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/Q1OlF6dEYOE",
+          "canonical_url": "https://www.youtube.com/shorts/Q1OlF6dEYOE",
+          "creator_id": "UCGDRlbhe0Tw_ZWao6J_jQ_A",
+          "country": null,
+          "country_eligible": false,
+          "views": 2346,
+          "likes": 51,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "VLDHiaVhc8c",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/VLDHiaVhc8c",
+          "canonical_url": "https://www.youtube.com/shorts/VLDHiaVhc8c",
+          "creator_id": "UCShnFGNRIj7-EScErXjE8qg",
+          "country": null,
+          "country_eligible": false,
+          "views": 2,
+          "likes": 0,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "9ETwIghmdms",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/9ETwIghmdms",
+          "canonical_url": "https://www.youtube.com/shorts/9ETwIghmdms",
+          "creator_id": "UCToHADRV23Jo-7lIYV0wqkQ",
+          "country": null,
+          "country_eligible": false,
+          "views": 18,
+          "likes": 5,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "NRSWVXdVzz8",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/NRSWVXdVzz8",
+          "canonical_url": "https://www.youtube.com/shorts/NRSWVXdVzz8",
+          "creator_id": "UCprhwFYVMt0NIuIVtzXt1pw",
+          "country": null,
+          "country_eligible": false,
+          "views": 35,
+          "likes": 2,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "tXzhfsaG2Qk",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/tXzhfsaG2Qk",
+          "canonical_url": "https://www.youtube.com/shorts/tXzhfsaG2Qk",
+          "creator_id": "UCEd3CnsDPUAG5G7kokDGQqg",
+          "country": null,
+          "country_eligible": false,
+          "views": 788,
+          "likes": 8,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "AZdWXRDUMBg",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/AZdWXRDUMBg",
+          "canonical_url": "https://www.youtube.com/shorts/AZdWXRDUMBg",
+          "creator_id": "UCEO-leg2uWYm8LtLoDBNlxg",
+          "country": null,
+          "country_eligible": false,
+          "views": 187,
+          "likes": 3,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "F2Z4TY2TPpE",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/F2Z4TY2TPpE",
+          "canonical_url": "https://www.youtube.com/shorts/F2Z4TY2TPpE",
+          "creator_id": "UCXAArZCUcCIJ1FFqUyzXhKg",
+          "country": null,
+          "country_eligible": false,
+          "views": 4588,
+          "likes": 49,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "5IaCryyb0Rg",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/5IaCryyb0Rg",
+          "canonical_url": "https://www.youtube.com/shorts/5IaCryyb0Rg",
+          "creator_id": "UCrbVnill34iBh0aAiEMmrZQ",
+          "country": null,
+          "country_eligible": false,
+          "views": 15869,
+          "likes": 474,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "Stn8SBc6j-A",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/Stn8SBc6j-A",
+          "canonical_url": "https://www.youtube.com/shorts/Stn8SBc6j-A",
+          "creator_id": "UCEO-leg2uWYm8LtLoDBNlxg",
+          "country": null,
+          "country_eligible": false,
+          "views": 482,
+          "likes": 3,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "g1ZTeTUIt8o",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/g1ZTeTUIt8o",
+          "canonical_url": "https://www.youtube.com/shorts/g1ZTeTUIt8o",
+          "creator_id": "UCZSmq8IjUGiXBRKX6gryPLQ",
+          "country": null,
+          "country_eligible": false,
+          "views": 27213,
+          "likes": 527,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "B0OsLsIA_Dg",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/B0OsLsIA_Dg",
+          "canonical_url": "https://www.youtube.com/shorts/B0OsLsIA_Dg",
+          "creator_id": "UC_AE72bU1C-y2FqVS5yD_tQ",
+          "country": null,
+          "country_eligible": false,
+          "views": 1186,
+          "likes": 14,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "qa-mkzylfrw",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/qa-mkzylfrw",
+          "canonical_url": "https://www.youtube.com/shorts/qa-mkzylfrw",
+          "creator_id": "UCXemvBWvSegCJWUrYN0yZlQ",
+          "country": null,
+          "country_eligible": false,
+          "views": 17488,
+          "likes": 747,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "_jszjFXWVz4",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/_jszjFXWVz4",
+          "canonical_url": "https://www.youtube.com/shorts/_jszjFXWVz4",
+          "creator_id": "UC3KCk2ymSU3cuD5TTpR-3ew",
+          "country": null,
+          "country_eligible": false,
+          "views": 19480,
+          "likes": 653,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "6r3kXJ5w2hM",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/6r3kXJ5w2hM",
+          "canonical_url": "https://www.youtube.com/shorts/6r3kXJ5w2hM",
+          "creator_id": "UCfQDbBAJqSV2z5GzMX-31dQ",
+          "country": null,
+          "country_eligible": false,
+          "views": 7753,
+          "likes": 264,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "USHWOrDv2J8",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/USHWOrDv2J8",
+          "canonical_url": "https://www.youtube.com/shorts/USHWOrDv2J8",
+          "creator_id": "UCQS9btuhnAl1kdqUUpZR2uw",
+          "country": null,
+          "country_eligible": false,
+          "views": 32647,
+          "likes": 815,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "kUAhEkK7tqA",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/kUAhEkK7tqA",
+          "canonical_url": "https://www.youtube.com/shorts/kUAhEkK7tqA",
+          "creator_id": "UCGzrLoBpDw0Moz_6Hnp_u-A",
+          "country": null,
+          "country_eligible": false,
+          "views": 9633,
+          "likes": 259,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        }
+      ],
+      "qualifying_video_ids": [],
+      "stats": {
+        "qualifying_video_count": 0,
+        "collected_valid_video_count": 0,
+        "platform_count": 0,
+        "collected_platform_count": 0,
+        "platform_counts": {},
+        "qualifying_platforms": [],
+        "country_count": 0,
+        "collected_country_count": 0,
+        "country_counts": {},
+        "qualifying_countries": [],
+        "creator_count": 0,
+        "estimated_india_seller_count": null,
+        "observed_confirmed_seller_count": 0,
+        "seller_coverage": "unknown"
+      },
+      "shipping_reasons": [
+        "shipping is not verified",
+        "shipping evidence URL missing or invalid",
+        "weight exceeds shipping limit or is invalid",
+        "longest side exceeds shipping limit or is invalid",
+        "fragile must be false",
+        "restricted must be false"
+      ],
+      "hero_hypothesis": {
+        "problem": "Styling hair without a powered curling tool.",
+        "demonstration": "Before and after curl demonstration.",
+        "differentiation": "Fit, comfort and clear instructions need customer validation."
+      },
+      "shipping_evidence": {
+        "status": "pending",
+        "evidence_url": null,
+        "weight_kg": null,
+        "longest_side_cm": null,
+        "fragile": null,
+        "restricted": null
+      },
+      "seller_evidence": [],
+      "seller_checks": [
+        {
+          "product_id": "heatless-curling-rod",
+          "channel": "amazon_in",
+          "query": "heatless curling rod",
+          "evidence_url": "https://www.amazon.in/s?k=heatless+curling+rod",
+          "checked_at": "2026-09-21T10:46:34.495173+00:00",
+          "status": "blocked",
+          "leads": [],
+          "reason": "HTTP 503"
+        },
+        {
+          "product_id": "heatless-curling-rod",
+          "channel": "flipkart",
+          "query": "heatless curling rod",
+          "evidence_url": "https://www.flipkart.com/search?q=heatless+curling+rod",
+          "checked_at": "2026-09-21T10:46:34.711688+00:00",
+          "status": "blocked",
+          "leads": [],
+          "reason": "HTTP 403"
+        },
+        {
+          "product_id": "heatless-curling-rod",
+          "channel": "instagram",
+          "query": "heatless curling rod",
+          "evidence_url": "https://www.google.com/search?q=%22heatless+curling+rod%22+site%3Ainstagram.com+India+buy",
+          "checked_at": "2026-09-21T10:46:35.101609+00:00",
+          "status": "blocked",
+          "leads": [],
+          "response_sha256": "9a993fa154f9e74a456aa6f07e3f489834580559165883b6477a5fff7882e0a4",
+          "reason": "No parseable listings; challenge, changed layout or empty search cannot establish zero sellers."
+        },
+        {
+          "product_id": "heatless-curling-rod",
+          "channel": "shopify",
+          "query": "heatless curling rod",
+          "evidence_url": "https://www.google.com/search?q=%22heatless+curling+rod%22+India+buy+Shopify",
+          "checked_at": "2026-09-21T10:46:36.058514+00:00",
+          "status": "blocked",
+          "leads": [],
+          "response_sha256": "943ceeb2197e80434c82d04e1df1694d74ce2bc5365ef761b8bd11dccb04168a",
+          "reason": "No parseable listings; challenge, changed layout or empty search cannot establish zero sellers."
+        }
+      ]
+    },
+    {
+      "id": "magnetic-cable-clips",
+      "name": "magnetic cable clips",
+      "status": "pending",
+      "international": false,
+      "india": false,
+      "reasons": [
+        "fewer than 10 platform-namespaced creators",
+        "fewer than 2 platforms with 5 qualifying videos",
+        "fewer than 5 countries with 3 qualifying videos",
+        "fewer than 50 unique qualifying videos",
+        "four fresh channel checks not complete",
+        "fragile must be false",
+        "international qualification missing",
+        "longest side exceeds shipping limit or is invalid",
+        "restricted must be false",
+        "shipping evidence URL missing or invalid",
+        "shipping is not verified",
+        "weight exceeds shipping limit or is invalid"
+      ],
+      "international_reasons": [
+        "fewer than 10 platform-namespaced creators",
+        "fewer than 2 platforms with 5 qualifying videos",
+        "fewer than 5 countries with 3 qualifying videos",
+        "fewer than 50 unique qualifying videos",
+        "fragile must be false",
+        "longest side exceeds shipping limit or is invalid",
+        "restricted must be false",
+        "shipping evidence URL missing or invalid",
+        "shipping is not verified",
+        "weight exceeds shipping limit or is invalid"
+      ],
+      "india_reasons": [
+        "four fresh channel checks not complete",
+        "international qualification missing"
+      ],
+      "video_evaluations": [
+        {
+          "id": "HV5q3tU6n5E",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/HV5q3tU6n5E",
+          "canonical_url": "https://www.youtube.com/shorts/HV5q3tU6n5E",
+          "creator_id": "UCIeTBM1_hy7142jqUGre3wA",
+          "country": null,
+          "country_eligible": false,
+          "views": 927,
+          "likes": 6,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "eRlrkpoeeQw",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/eRlrkpoeeQw",
+          "canonical_url": "https://www.youtube.com/shorts/eRlrkpoeeQw",
+          "creator_id": "UCU-Jf8Bd3QmRek72LEC3zpw",
+          "country": null,
+          "country_eligible": false,
+          "views": 8185,
+          "likes": 19,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "NtEWddzjh7I",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/NtEWddzjh7I",
+          "canonical_url": "https://www.youtube.com/shorts/NtEWddzjh7I",
+          "creator_id": "UCerb9JU2eoAUFQft-pWVZBA",
+          "country": null,
+          "country_eligible": false,
+          "views": 531,
+          "likes": 8,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "i7hjpnALi68",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/i7hjpnALi68",
+          "canonical_url": "https://www.youtube.com/shorts/i7hjpnALi68",
+          "creator_id": "UCPkyfqCTAbWHqNoWRv9BVxg",
+          "country": null,
+          "country_eligible": false,
+          "views": 1041,
+          "likes": 6,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "S-u0gFp-81Q",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/S-u0gFp-81Q",
+          "canonical_url": "https://www.youtube.com/shorts/S-u0gFp-81Q",
+          "creator_id": "UCq0GsGzppjbwdgLVJ_2XUOg",
+          "country": null,
+          "country_eligible": false,
+          "views": 1201,
+          "likes": 11,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "wnVYR3GSbCw",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/wnVYR3GSbCw",
+          "canonical_url": "https://www.youtube.com/shorts/wnVYR3GSbCw",
+          "creator_id": "UCXHqaj3FzcawSpfiYxRMAJg",
+          "country": null,
+          "country_eligible": false,
+          "views": 109,
+          "likes": 0,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "AbAzp1jtQrw",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/AbAzp1jtQrw",
+          "canonical_url": "https://www.youtube.com/shorts/AbAzp1jtQrw",
+          "creator_id": "UCSQEhKBdr86Wn6Zzfvwvvpw",
+          "country": null,
+          "country_eligible": false,
+          "views": 1143,
+          "likes": 16,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "WI6-9Nbkd6k",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/WI6-9Nbkd6k",
+          "canonical_url": "https://www.youtube.com/shorts/WI6-9Nbkd6k",
+          "creator_id": "UCXU4pC7aRiOjm-BPONJIYHQ",
+          "country": null,
+          "country_eligible": false,
+          "views": 1045,
+          "likes": 8,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "kQFNcNxWrQw",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/kQFNcNxWrQw",
+          "canonical_url": "https://www.youtube.com/shorts/kQFNcNxWrQw",
+          "creator_id": "UCEJEOr_rj8bLfhutA5KkQcw",
+          "country": null,
+          "country_eligible": false,
+          "views": 1152,
+          "likes": 11,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "VWHq3RYF8pY",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/VWHq3RYF8pY",
+          "canonical_url": "https://www.youtube.com/shorts/VWHq3RYF8pY",
+          "creator_id": "UCp629buiMRB3u6_cZ0CvQxQ",
+          "country": null,
+          "country_eligible": false,
+          "views": 87,
+          "likes": 0,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "1iLuA5eyMw0",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/1iLuA5eyMw0",
+          "canonical_url": "https://www.youtube.com/shorts/1iLuA5eyMw0",
+          "creator_id": "UCwSJiI3W4kfyWQY449xpiWQ",
+          "country": null,
+          "country_eligible": false,
+          "views": 585,
+          "likes": 1,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "FSHTJhOZLTs",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/FSHTJhOZLTs",
+          "canonical_url": "https://www.youtube.com/shorts/FSHTJhOZLTs",
+          "creator_id": "UCLqBW0YZjAN6hT-sCeYNSPA",
+          "country": null,
+          "country_eligible": false,
+          "views": 1070,
+          "likes": 2,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "8n1ynQ-g_oY",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/8n1ynQ-g_oY",
+          "canonical_url": "https://www.youtube.com/shorts/8n1ynQ-g_oY",
+          "creator_id": "UCupaG8m6ZNXqC90bxezIquA",
+          "country": null,
+          "country_eligible": false,
+          "views": 392,
+          "likes": 2,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "nRn_xWkOy5s",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/nRn_xWkOy5s",
+          "canonical_url": "https://www.youtube.com/shorts/nRn_xWkOy5s",
+          "creator_id": "UCJTtF4NAtnZ8lby8UMuSxZw",
+          "country": null,
+          "country_eligible": false,
+          "views": 3,
+          "likes": 0,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "_nQ_LTVJhTg",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/_nQ_LTVJhTg",
+          "canonical_url": "https://www.youtube.com/shorts/_nQ_LTVJhTg",
+          "creator_id": "UC8uQJBaTbOnJscRdMK7Livw",
+          "country": null,
+          "country_eligible": false,
+          "views": 118,
+          "likes": 0,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "LlCOu-fgc2Y",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/LlCOu-fgc2Y",
+          "canonical_url": "https://www.youtube.com/shorts/LlCOu-fgc2Y",
+          "creator_id": "UCmcHnaegwtS3mr042BiZVVQ",
+          "country": null,
+          "country_eligible": false,
+          "views": 2131,
+          "likes": 16,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "Lv4G26UO-zg",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/Lv4G26UO-zg",
+          "canonical_url": "https://www.youtube.com/shorts/Lv4G26UO-zg",
+          "creator_id": "UCQMabfOIcFoqXW2Y8zSVm7A",
+          "country": null,
+          "country_eligible": false,
+          "views": 0,
+          "likes": 0,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "1j9eQdSASMU",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/1j9eQdSASMU",
+          "canonical_url": "https://www.youtube.com/shorts/1j9eQdSASMU",
+          "creator_id": "UCKqglIDbeTDnFhs_jnYlq3g",
+          "country": null,
+          "country_eligible": false,
+          "views": 7,
+          "likes": 0,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "16ey1V-iYXo",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/16ey1V-iYXo",
+          "canonical_url": "https://www.youtube.com/shorts/16ey1V-iYXo",
+          "creator_id": "UCFQKxwURUZWn9CDnMwihQ9w",
+          "country": null,
+          "country_eligible": false,
+          "views": 529,
+          "likes": 13,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "CfgVS3QlryA",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/CfgVS3QlryA",
+          "canonical_url": "https://www.youtube.com/shorts/CfgVS3QlryA",
+          "creator_id": "UCcpAKe9nQuv7OuqY6VRjDQQ",
+          "country": null,
+          "country_eligible": false,
+          "views": 317,
+          "likes": 1,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "1koyaIdOffo",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/1koyaIdOffo",
+          "canonical_url": "https://www.youtube.com/shorts/1koyaIdOffo",
+          "creator_id": "UC0z_MWCeSqQ-Ye7nHzXtAEg",
+          "country": null,
+          "country_eligible": false,
+          "views": 1280,
+          "likes": 4,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "eIVlIDRRt_U",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/eIVlIDRRt_U",
+          "canonical_url": "https://www.youtube.com/shorts/eIVlIDRRt_U",
+          "creator_id": "UCUIVAnzY9ehptmzsJen2qGw",
+          "country": null,
+          "country_eligible": false,
+          "views": 0,
+          "likes": 0,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "kPpQAypY2z0",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/kPpQAypY2z0",
+          "canonical_url": "https://www.youtube.com/shorts/kPpQAypY2z0",
+          "creator_id": "UCGNItAcIQuCiGbsLfbCUHDA",
+          "country": null,
+          "country_eligible": false,
+          "views": 6182,
+          "likes": 66,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "0IBXETevRlg",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/0IBXETevRlg",
+          "canonical_url": "https://www.youtube.com/shorts/0IBXETevRlg",
+          "creator_id": "UCKauolJ-y9c59AGAeedWB4A",
+          "country": null,
+          "country_eligible": false,
+          "views": 8,
+          "likes": 0,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "CHKOxyDPntw",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/CHKOxyDPntw",
+          "canonical_url": "https://www.youtube.com/shorts/CHKOxyDPntw",
+          "creator_id": "UCvAvTUr2lvaoYPF3VDGza4A",
+          "country": null,
+          "country_eligible": false,
+          "views": 22,
+          "likes": 0,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        }
+      ],
+      "qualifying_video_ids": [],
+      "stats": {
+        "qualifying_video_count": 0,
+        "collected_valid_video_count": 0,
+        "platform_count": 0,
+        "collected_platform_count": 0,
+        "platform_counts": {},
+        "qualifying_platforms": [],
+        "country_count": 0,
+        "collected_country_count": 0,
+        "country_counts": {},
+        "qualifying_countries": [],
+        "creator_count": 0,
+        "estimated_india_seller_count": null,
+        "observed_confirmed_seller_count": 0,
+        "seller_coverage": "unknown"
+      },
+      "shipping_reasons": [
+        "shipping is not verified",
+        "shipping evidence URL missing or invalid",
+        "weight exceeds shipping limit or is invalid",
+        "longest side exceeds shipping limit or is invalid",
+        "fragile must be false",
+        "restricted must be false"
+      ],
+      "hero_hypothesis": {
+        "problem": "Preventing charging cables from falling behind a desk.",
+        "demonstration": "One-handed cable placement demonstration.",
+        "differentiation": "Adhesive quality and cable-size fit need validation; magnet shipping review required."
+      },
+      "shipping_evidence": {
+        "status": "pending",
+        "evidence_url": null,
+        "weight_kg": null,
+        "longest_side_cm": null,
+        "fragile": null,
+        "restricted": null
+      },
+      "seller_evidence": [],
+      "seller_checks": [
+        {
+          "product_id": "magnetic-cable-clips",
+          "channel": "amazon_in",
+          "query": "magnetic cable clips",
+          "evidence_url": "https://www.amazon.in/s?k=magnetic+cable+clips",
+          "checked_at": "2026-09-21T10:46:39.952817+00:00",
+          "status": "blocked",
+          "leads": [],
+          "reason": "HTTP 503"
+        },
+        {
+          "product_id": "magnetic-cable-clips",
+          "channel": "flipkart",
+          "query": "magnetic cable clips",
+          "evidence_url": "https://www.flipkart.com/search?q=magnetic+cable+clips",
+          "checked_at": "2026-09-21T10:46:40.141003+00:00",
+          "status": "blocked",
+          "leads": [],
+          "reason": "HTTP 403"
+        },
+        {
+          "product_id": "magnetic-cable-clips",
+          "channel": "instagram",
+          "query": "magnetic cable clips",
+          "evidence_url": "https://www.google.com/search?q=%22magnetic+cable+clips%22+site%3Ainstagram.com+India+buy",
+          "checked_at": "2026-09-21T10:46:40.301861+00:00",
+          "status": "blocked",
+          "leads": [],
+          "response_sha256": "fdc4f39bf567e0402f7986bc13e2a3f830997422773fc2fd072ea232da99916a",
+          "reason": "No parseable listings; challenge, changed layout or empty search cannot establish zero sellers."
+        },
+        {
+          "product_id": "magnetic-cable-clips",
+          "channel": "shopify",
+          "query": "magnetic cable clips",
+          "evidence_url": "https://www.google.com/search?q=%22magnetic+cable+clips%22+India+buy+Shopify",
+          "checked_at": "2026-09-21T10:46:41.042945+00:00",
+          "status": "blocked",
+          "leads": [],
+          "response_sha256": "af6da28c4220a5bce60db4cf71455632d8aeda26dae1ff96f789741e015b8e5a",
+          "reason": "No parseable listings; challenge, changed layout or empty search cannot establish zero sellers."
+        }
+      ]
+    },
+    {
+      "id": "pet-hair-remover",
+      "name": "pet hair remover",
+      "status": "pending",
+      "international": false,
+      "india": false,
+      "reasons": [
+        "fewer than 10 platform-namespaced creators",
+        "fewer than 2 platforms with 5 qualifying videos",
+        "fewer than 5 countries with 3 qualifying videos",
+        "fewer than 50 unique qualifying videos",
+        "four fresh channel checks not complete",
+        "fragile must be false",
+        "international qualification missing",
+        "longest side exceeds shipping limit or is invalid",
+        "restricted must be false",
+        "shipping evidence URL missing or invalid",
+        "shipping is not verified",
+        "weight exceeds shipping limit or is invalid"
+      ],
+      "international_reasons": [
+        "fewer than 10 platform-namespaced creators",
+        "fewer than 2 platforms with 5 qualifying videos",
+        "fewer than 5 countries with 3 qualifying videos",
+        "fewer than 50 unique qualifying videos",
+        "fragile must be false",
+        "longest side exceeds shipping limit or is invalid",
+        "restricted must be false",
+        "shipping evidence URL missing or invalid",
+        "shipping is not verified",
+        "weight exceeds shipping limit or is invalid"
+      ],
+      "india_reasons": [
+        "four fresh channel checks not complete",
+        "international qualification missing"
+      ],
+      "video_evaluations": [
+        {
+          "id": "kmoh3Ntv-ro",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/kmoh3Ntv-ro",
+          "canonical_url": "https://www.youtube.com/shorts/kmoh3Ntv-ro",
+          "creator_id": "UCQ30vPtElbhjCA01I22X24A",
+          "country": null,
+          "country_eligible": false,
+          "views": 1407,
+          "likes": 14,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "K0d3XM8Krsw",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/K0d3XM8Krsw",
+          "canonical_url": "https://www.youtube.com/shorts/K0d3XM8Krsw",
+          "creator_id": "UCf2D1mVrAz1pzFgdBvgmwaA",
+          "country": null,
+          "country_eligible": false,
+          "views": 934,
+          "likes": 4,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "ZJ8UMqcydRA",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/ZJ8UMqcydRA",
+          "canonical_url": "https://www.youtube.com/shorts/ZJ8UMqcydRA",
+          "creator_id": "UCmUUqwG4uGJwRuUu4nJ48cw",
+          "country": null,
+          "country_eligible": false,
+          "views": 8467,
+          "likes": 87,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "ctuMSk-vVQQ",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/ctuMSk-vVQQ",
+          "canonical_url": "https://www.youtube.com/shorts/ctuMSk-vVQQ",
+          "creator_id": "UCh7aLeHM4Wh6pJsEp5NOiiA",
+          "country": null,
+          "country_eligible": false,
+          "views": 3,
+          "likes": 0,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "8rCkMGbD3OI",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/8rCkMGbD3OI",
+          "canonical_url": "https://www.youtube.com/shorts/8rCkMGbD3OI",
+          "creator_id": "UCqYyx80F6Oc5mk2H5iMGMEw",
+          "country": null,
+          "country_eligible": false,
+          "views": 2,
+          "likes": 0,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "5SKGUEPqsfs",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/5SKGUEPqsfs",
+          "canonical_url": "https://www.youtube.com/shorts/5SKGUEPqsfs",
+          "creator_id": "UCoWVhZiYVL202QHf_FdXGCg",
+          "country": null,
+          "country_eligible": false,
+          "views": 4,
+          "likes": 0,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "FJ00CLIUhss",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/FJ00CLIUhss",
+          "canonical_url": "https://www.youtube.com/shorts/FJ00CLIUhss",
+          "creator_id": "UCsmTLisDBkLrPcYkWcZ9VXA",
+          "country": null,
+          "country_eligible": false,
+          "views": 6,
+          "likes": 1,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "IvSrZ91xeJ8",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/IvSrZ91xeJ8",
+          "canonical_url": "https://www.youtube.com/shorts/IvSrZ91xeJ8",
+          "creator_id": "UCCufrkzxNKmyFdoBXFfu3yw",
+          "country": null,
+          "country_eligible": false,
+          "views": 0,
+          "likes": 0,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "i96-B85jYwU",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/i96-B85jYwU",
+          "canonical_url": "https://www.youtube.com/shorts/i96-B85jYwU",
+          "creator_id": "UCA-VnYX3VUSjaleG51sBDog",
+          "country": null,
+          "country_eligible": false,
+          "views": 12,
+          "likes": 1,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "QaTMSEoNKz8",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/QaTMSEoNKz8",
+          "canonical_url": "https://www.youtube.com/shorts/QaTMSEoNKz8",
+          "creator_id": "UCZIbRSRTH-lGa-ieuMIusFw",
+          "country": null,
+          "country_eligible": false,
+          "views": 1067,
+          "likes": 12,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "QnxiR7-BLLA",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/QnxiR7-BLLA",
+          "canonical_url": "https://www.youtube.com/shorts/QnxiR7-BLLA",
+          "creator_id": "UCvbI4VC-ZUjsjhG9Sms0uew",
+          "country": null,
+          "country_eligible": false,
+          "views": 1542,
+          "likes": 12,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "1yYbfss_e9I",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/1yYbfss_e9I",
+          "canonical_url": "https://www.youtube.com/shorts/1yYbfss_e9I",
+          "creator_id": "UCh7aLeHM4Wh6pJsEp5NOiiA",
+          "country": null,
+          "country_eligible": false,
+          "views": 124,
+          "likes": 0,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "dQRmcPmPhg0",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/dQRmcPmPhg0",
+          "canonical_url": "https://www.youtube.com/shorts/dQRmcPmPhg0",
+          "creator_id": "UCZ3ct_TGqZu9m_FcScxyASA",
+          "country": null,
+          "country_eligible": false,
+          "views": 1203,
+          "likes": 8,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "lThF8fsxt3g",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/lThF8fsxt3g",
+          "canonical_url": "https://www.youtube.com/shorts/lThF8fsxt3g",
+          "creator_id": "UC2pNtWGfyrf7YjDrDegs7kg",
+          "country": null,
+          "country_eligible": false,
+          "views": 0,
+          "likes": 0,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "mZvas0nrV_A",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/mZvas0nrV_A",
+          "canonical_url": "https://www.youtube.com/shorts/mZvas0nrV_A",
+          "creator_id": "UCRelcVRSN6MKfhn5O3gjdbw",
+          "country": null,
+          "country_eligible": false,
+          "views": 0,
+          "likes": 0,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "UEJbNbLsuIM",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/UEJbNbLsuIM",
+          "canonical_url": "https://www.youtube.com/shorts/UEJbNbLsuIM",
+          "creator_id": "UCRuwFCCi4mFN6uS7vIfSWGg",
+          "country": null,
+          "country_eligible": false,
+          "views": 1319,
+          "likes": 13,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "bYaMIm1CM34",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/bYaMIm1CM34",
+          "canonical_url": "https://www.youtube.com/shorts/bYaMIm1CM34",
+          "creator_id": "UCfwGSzah1Ma_BP-vddkmFHw",
+          "country": null,
+          "country_eligible": false,
+          "views": 427,
+          "likes": 3,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "04V_4PsOQvo",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/04V_4PsOQvo",
+          "canonical_url": "https://www.youtube.com/shorts/04V_4PsOQvo",
+          "creator_id": "UCBhUdlk5cTdyFGEabr0wLGw",
+          "country": null,
+          "country_eligible": false,
+          "views": 224,
+          "likes": 3,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "iZwbWz627aY",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/iZwbWz627aY",
+          "canonical_url": "https://www.youtube.com/shorts/iZwbWz627aY",
+          "creator_id": "UC2H0lp66j4m7LgoNRlV8lxA",
+          "country": null,
+          "country_eligible": false,
+          "views": 901,
+          "likes": 2,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "h8VhEhvzBj4",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/h8VhEhvzBj4",
+          "canonical_url": "https://www.youtube.com/shorts/h8VhEhvzBj4",
+          "creator_id": "UCA7FUqM_-SRnk3XfxhMr2bQ",
+          "country": null,
+          "country_eligible": false,
+          "views": 1606,
+          "likes": 20,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "aHMMzD0vvgk",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/aHMMzD0vvgk",
+          "canonical_url": "https://www.youtube.com/shorts/aHMMzD0vvgk",
+          "creator_id": "UCgx6wN1kp2bY6xrP811V5GA",
+          "country": null,
+          "country_eligible": false,
+          "views": 3818,
+          "likes": 26,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "I-oFnBxK9XA",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/I-oFnBxK9XA",
+          "canonical_url": "https://www.youtube.com/shorts/I-oFnBxK9XA",
+          "creator_id": "UCccCtcYFw3IvN-2aBONpDsQ",
+          "country": null,
+          "country_eligible": false,
+          "views": 15896,
+          "likes": 190,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "t_lVMh6i8as",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/t_lVMh6i8as",
+          "canonical_url": "https://www.youtube.com/shorts/t_lVMh6i8as",
+          "creator_id": "UCbYm0UGtrP9qRTDoQZE69TA",
+          "country": null,
+          "country_eligible": false,
+          "views": 1532,
+          "likes": 15,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "kgIMztAEom4",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/kgIMztAEom4",
+          "canonical_url": "https://www.youtube.com/shorts/kgIMztAEom4",
+          "creator_id": "UCoxYNlyPVkN6gY2lR3XoKmA",
+          "country": null,
+          "country_eligible": false,
+          "views": 7215,
+          "likes": null,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "kj5qY6RIUNk",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/kj5qY6RIUNk",
+          "canonical_url": "https://www.youtube.com/shorts/kj5qY6RIUNk",
+          "creator_id": "UCVlWDez57i4iTCR3yow-htA",
+          "country": null,
+          "country_eligible": false,
+          "views": 1324,
+          "likes": 6,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        }
+      ],
+      "qualifying_video_ids": [],
+      "stats": {
+        "qualifying_video_count": 0,
+        "collected_valid_video_count": 0,
+        "platform_count": 0,
+        "collected_platform_count": 0,
+        "platform_counts": {},
+        "qualifying_platforms": [],
+        "country_count": 0,
+        "collected_country_count": 0,
+        "country_counts": {},
+        "qualifying_countries": [],
+        "creator_count": 0,
+        "estimated_india_seller_count": null,
+        "observed_confirmed_seller_count": 0,
+        "seller_coverage": "unknown"
+      },
+      "shipping_reasons": [
+        "shipping is not verified",
+        "shipping evidence URL missing or invalid",
+        "weight exceeds shipping limit or is invalid",
+        "longest side exceeds shipping limit or is invalid",
+        "fragile must be false",
+        "restricted must be false"
+      ],
+      "hero_hypothesis": {
+        "problem": "Removing pet hair from upholstery.",
+        "demonstration": "One-pass cleaning of a fabric surface.",
+        "differentiation": "Reusable mechanism and pet-household positioning need validation."
+      },
+      "shipping_evidence": {
+        "status": "pending",
+        "evidence_url": null,
+        "weight_kg": null,
+        "longest_side_cm": null,
+        "fragile": null,
+        "restricted": null
+      },
+      "seller_evidence": [],
+      "seller_checks": [
+        {
+          "product_id": "pet-hair-remover",
+          "channel": "amazon_in",
+          "query": "pet hair remover",
+          "evidence_url": "https://www.amazon.in/s?k=pet+hair+remover",
+          "checked_at": "2026-09-21T10:46:36.576594+00:00",
+          "status": "blocked",
+          "leads": [],
+          "reason": "HTTP 503"
+        },
+        {
+          "product_id": "pet-hair-remover",
+          "channel": "flipkart",
+          "query": "pet hair remover",
+          "evidence_url": "https://www.flipkart.com/search?q=pet+hair+remover",
+          "checked_at": "2026-09-21T10:46:36.776465+00:00",
+          "status": "blocked",
+          "leads": [],
+          "reason": "HTTP 403"
+        },
+        {
+          "product_id": "pet-hair-remover",
+          "channel": "instagram",
+          "query": "pet hair remover",
+          "evidence_url": "https://www.google.com/search?q=%22pet+hair+remover%22+site%3Ainstagram.com+India+buy",
+          "checked_at": "2026-09-21T10:46:37.032390+00:00",
+          "status": "blocked",
+          "leads": [],
+          "response_sha256": "327f43495a879cb3086cb8c1407f3a3521fdca68a210520da18a5584adf09aa9",
+          "reason": "No parseable listings; challenge, changed layout or empty search cannot establish zero sellers."
+        },
+        {
+          "product_id": "pet-hair-remover",
+          "channel": "shopify",
+          "query": "pet hair remover",
+          "evidence_url": "https://www.google.com/search?q=%22pet+hair+remover%22+India+buy+Shopify",
+          "checked_at": "2026-09-21T10:46:37.284976+00:00",
+          "status": "blocked",
+          "leads": [],
+          "response_sha256": "38cfe99de67c519df79d6e34e3e91e23db6174600060d9272dfb62f2178743ea",
+          "reason": "No parseable listings; challenge, changed layout or empty search cannot establish zero sellers."
+        }
+      ]
+    },
+    {
+      "id": "reusable-lint-roller",
+      "name": "reusable lint roller",
+      "status": "pending",
+      "international": false,
+      "india": false,
+      "reasons": [
+        "fewer than 10 platform-namespaced creators",
+        "fewer than 2 platforms with 5 qualifying videos",
+        "fewer than 5 countries with 3 qualifying videos",
+        "fewer than 50 unique qualifying videos",
+        "four fresh channel checks not complete",
+        "fragile must be false",
+        "international qualification missing",
+        "longest side exceeds shipping limit or is invalid",
+        "restricted must be false",
+        "shipping evidence URL missing or invalid",
+        "shipping is not verified",
+        "weight exceeds shipping limit or is invalid"
+      ],
+      "international_reasons": [
+        "fewer than 10 platform-namespaced creators",
+        "fewer than 2 platforms with 5 qualifying videos",
+        "fewer than 5 countries with 3 qualifying videos",
+        "fewer than 50 unique qualifying videos",
+        "fragile must be false",
+        "longest side exceeds shipping limit or is invalid",
+        "restricted must be false",
+        "shipping evidence URL missing or invalid",
+        "shipping is not verified",
+        "weight exceeds shipping limit or is invalid"
+      ],
+      "india_reasons": [
+        "four fresh channel checks not complete",
+        "international qualification missing"
+      ],
+      "video_evaluations": [
+        {
+          "id": "mZvas0nrV_A",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/mZvas0nrV_A",
+          "canonical_url": "https://www.youtube.com/shorts/mZvas0nrV_A",
+          "creator_id": "UCRelcVRSN6MKfhn5O3gjdbw",
+          "country": null,
+          "country_eligible": false,
+          "views": 0,
+          "likes": 0,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "B5qq8jbD5CM",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/B5qq8jbD5CM",
+          "canonical_url": "https://www.youtube.com/shorts/B5qq8jbD5CM",
+          "creator_id": "UCMzt5nS6kM_hmZTPLPb86MA",
+          "country": null,
+          "country_eligible": false,
+          "views": 15,
+          "likes": 0,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "6MW52M5N9y8",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/6MW52M5N9y8",
+          "canonical_url": "https://www.youtube.com/shorts/6MW52M5N9y8",
+          "creator_id": "UCbYm0UGtrP9qRTDoQZE69TA",
+          "country": null,
+          "country_eligible": false,
+          "views": 9355,
+          "likes": 28,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "nG6zHccEBz4",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/nG6zHccEBz4",
+          "canonical_url": "https://www.youtube.com/shorts/nG6zHccEBz4",
+          "creator_id": "UCOPQlN5GW09qFWs1vo55KSg",
+          "country": null,
+          "country_eligible": false,
+          "views": 250,
+          "likes": 0,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "VninMC8au5Q",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/VninMC8au5Q",
+          "canonical_url": "https://www.youtube.com/shorts/VninMC8au5Q",
+          "creator_id": "UC9q3jtTSPyL-T-xDEyCcWYw",
+          "country": null,
+          "country_eligible": false,
+          "views": 13,
+          "likes": null,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "5mOQxnJCCVU",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/5mOQxnJCCVU",
+          "canonical_url": "https://www.youtube.com/shorts/5mOQxnJCCVU",
+          "creator_id": "UCm0cImStt44q4LlnZPsriDQ",
+          "country": null,
+          "country_eligible": false,
+          "views": 7,
+          "likes": 0,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "P6GvUSFe-ko",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/P6GvUSFe-ko",
+          "canonical_url": "https://www.youtube.com/shorts/P6GvUSFe-ko",
+          "creator_id": "UC7K2NveErZIcpspYf_BJzLQ",
+          "country": null,
+          "country_eligible": false,
+          "views": 18575,
+          "likes": 353,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "7TAkJfTyEGI",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/7TAkJfTyEGI",
+          "canonical_url": "https://www.youtube.com/shorts/7TAkJfTyEGI",
+          "creator_id": "UCWf7_vetkFNBuigUnQkhPNQ",
+          "country": null,
+          "country_eligible": false,
+          "views": 1011,
+          "likes": 8,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "4HdWih8VTRo",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/4HdWih8VTRo",
+          "canonical_url": "https://www.youtube.com/shorts/4HdWih8VTRo",
+          "creator_id": "UCAXxmFznUsvpEuC_ofh_hFw",
+          "country": null,
+          "country_eligible": false,
+          "views": 143,
+          "likes": 0,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "2m6tfWMGlkg",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/2m6tfWMGlkg",
+          "canonical_url": "https://www.youtube.com/shorts/2m6tfWMGlkg",
+          "creator_id": "UCYrro1N-ivbfPJ1riSm6pxQ",
+          "country": null,
+          "country_eligible": false,
+          "views": 356,
+          "likes": 4,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "77I39cghLqQ",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/77I39cghLqQ",
+          "canonical_url": "https://www.youtube.com/shorts/77I39cghLqQ",
+          "creator_id": "UCeyARaenurN5Fxmr0Cq71lQ",
+          "country": null,
+          "country_eligible": false,
+          "views": 42,
+          "likes": 2,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "jEwElfiBhXI",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/jEwElfiBhXI",
+          "canonical_url": "https://www.youtube.com/shorts/jEwElfiBhXI",
+          "creator_id": "UCattM3_Sb5RU9q-oCI9qHDg",
+          "country": null,
+          "country_eligible": false,
+          "views": 996,
+          "likes": 13,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "s4ZlOD2DTf4",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/s4ZlOD2DTf4",
+          "canonical_url": "https://www.youtube.com/shorts/s4ZlOD2DTf4",
+          "creator_id": "UCswgM3Hlvo2nd0UIKExcvIg",
+          "country": null,
+          "country_eligible": false,
+          "views": 103,
+          "likes": null,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "Y8M8ggAwjiw",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/Y8M8ggAwjiw",
+          "canonical_url": "https://www.youtube.com/shorts/Y8M8ggAwjiw",
+          "creator_id": "UCbYm0UGtrP9qRTDoQZE69TA",
+          "country": null,
+          "country_eligible": false,
+          "views": 1902,
+          "likes": 9,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "A_XwtrDxyck",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/A_XwtrDxyck",
+          "canonical_url": "https://www.youtube.com/shorts/A_XwtrDxyck",
+          "creator_id": "UCciMWwWUj6CjWDw_a7ipvmA",
+          "country": null,
+          "country_eligible": false,
+          "views": 507,
+          "likes": 2,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "0a-Gn-Ipg0M",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/0a-Gn-Ipg0M",
+          "canonical_url": "https://www.youtube.com/shorts/0a-Gn-Ipg0M",
+          "creator_id": "UClfksYRAfCVZAl0qTmdtCjQ",
+          "country": null,
+          "country_eligible": false,
+          "views": 625,
+          "likes": 1,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "pLyll3Rqqxw",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/pLyll3Rqqxw",
+          "canonical_url": "https://www.youtube.com/shorts/pLyll3Rqqxw",
+          "creator_id": "UCvVdgkJ9X-jQMauitRWbq4Q",
+          "country": null,
+          "country_eligible": false,
+          "views": 286,
+          "likes": 1,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "TOvkPvy_Vug",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/TOvkPvy_Vug",
+          "canonical_url": "https://www.youtube.com/shorts/TOvkPvy_Vug",
+          "creator_id": "UCOPQlN5GW09qFWs1vo55KSg",
+          "country": null,
+          "country_eligible": false,
+          "views": 1127,
+          "likes": 4,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "04V_4PsOQvo",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/04V_4PsOQvo",
+          "canonical_url": "https://www.youtube.com/shorts/04V_4PsOQvo",
+          "creator_id": "UCBhUdlk5cTdyFGEabr0wLGw",
+          "country": null,
+          "country_eligible": false,
+          "views": 224,
+          "likes": 3,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "iZwbWz627aY",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/iZwbWz627aY",
+          "canonical_url": "https://www.youtube.com/shorts/iZwbWz627aY",
+          "creator_id": "UC2H0lp66j4m7LgoNRlV8lxA",
+          "country": null,
+          "country_eligible": false,
+          "views": 901,
+          "likes": 2,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "2y5QYUzx8Bw",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/2y5QYUzx8Bw",
+          "canonical_url": "https://www.youtube.com/shorts/2y5QYUzx8Bw",
+          "creator_id": "UC9VgE5ggFPdhQ11nizXwKaw",
+          "country": null,
+          "country_eligible": false,
+          "views": 1278,
+          "likes": 3,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "xLiqHwTyTGA",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/xLiqHwTyTGA",
+          "canonical_url": "https://www.youtube.com/shorts/xLiqHwTyTGA",
+          "creator_id": "UCRG-UDsiuYeSUohydCf1-Dg",
+          "country": null,
+          "country_eligible": false,
+          "views": 2156,
+          "likes": 29,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "toILg3R9-Nw",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/toILg3R9-Nw",
+          "canonical_url": "https://www.youtube.com/shorts/toILg3R9-Nw",
+          "creator_id": "UC-hqEKAI6tV7RtrfnPPpmGA",
+          "country": null,
+          "country_eligible": false,
+          "views": 0,
+          "likes": 0,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "t_lVMh6i8as",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/t_lVMh6i8as",
+          "canonical_url": "https://www.youtube.com/shorts/t_lVMh6i8as",
+          "creator_id": "UCbYm0UGtrP9qRTDoQZE69TA",
+          "country": null,
+          "country_eligible": false,
+          "views": 1532,
+          "likes": 15,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "mpI47GLs1nE",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/mpI47GLs1nE",
+          "canonical_url": "https://www.youtube.com/shorts/mpI47GLs1nE",
+          "creator_id": "UCym35AMAr2627NfzMTwHIkw",
+          "country": null,
+          "country_eligible": false,
+          "views": 643,
+          "likes": 6,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        }
+      ],
+      "qualifying_video_ids": [],
+      "stats": {
+        "qualifying_video_count": 0,
+        "collected_valid_video_count": 0,
+        "platform_count": 0,
+        "collected_platform_count": 0,
+        "platform_counts": {},
+        "qualifying_platforms": [],
+        "country_count": 0,
+        "collected_country_count": 0,
+        "country_counts": {},
+        "qualifying_countries": [],
+        "creator_count": 0,
+        "estimated_india_seller_count": null,
+        "observed_confirmed_seller_count": 0,
+        "seller_coverage": "unknown"
+      },
+      "shipping_reasons": [
+        "shipping is not verified",
+        "shipping evidence URL missing or invalid",
+        "weight exceeds shipping limit or is invalid",
+        "longest side exceeds shipping limit or is invalid",
+        "fragile must be false",
+        "restricted must be false"
+      ],
+      "hero_hypothesis": {
+        "problem": "Removing lint without disposable adhesive sheets.",
+        "demonstration": "Pickup, rinse and reuse demonstration.",
+        "differentiation": "Travel size and cleaning durability need validation."
+      },
+      "shipping_evidence": {
+        "status": "pending",
+        "evidence_url": null,
+        "weight_kg": null,
+        "longest_side_cm": null,
+        "fragile": null,
+        "restricted": null
+      },
+      "seller_evidence": [],
+      "seller_checks": [
+        {
+          "product_id": "reusable-lint-roller",
+          "channel": "amazon_in",
+          "query": "reusable lint roller",
+          "evidence_url": "https://www.amazon.in/s?k=reusable+lint+roller",
+          "checked_at": "2026-09-21T10:46:42.064088+00:00",
+          "status": "blocked",
+          "leads": [],
+          "reason": "HTTP 503"
+        },
+        {
+          "product_id": "reusable-lint-roller",
+          "channel": "flipkart",
+          "query": "reusable lint roller",
+          "evidence_url": "https://www.flipkart.com/search?q=reusable+lint+roller",
+          "checked_at": "2026-09-21T10:46:42.367052+00:00",
+          "status": "blocked",
+          "leads": [],
+          "reason": "HTTP 403"
+        },
+        {
+          "product_id": "reusable-lint-roller",
+          "channel": "instagram",
+          "query": "reusable lint roller",
+          "evidence_url": "https://www.google.com/search?q=%22reusable+lint+roller%22+site%3Ainstagram.com+India+buy",
+          "checked_at": "2026-09-21T10:46:42.534615+00:00",
+          "status": "blocked",
+          "leads": [],
+          "response_sha256": "2aa7d77113e45b57aec35025a3b97b4bacb978989e98369a5ec96675cf8d1fa6",
+          "reason": "No parseable listings; challenge, changed layout or empty search cannot establish zero sellers."
+        },
+        {
+          "product_id": "reusable-lint-roller",
+          "channel": "shopify",
+          "query": "reusable lint roller",
+          "evidence_url": "https://www.google.com/search?q=%22reusable+lint+roller%22+India+buy+Shopify",
+          "checked_at": "2026-09-21T10:46:43.054247+00:00",
+          "status": "blocked",
+          "leads": [],
+          "response_sha256": "09237c38aac3e5b7d0b8b263d6803c9e209094ba46db2f3d9813106872676acf",
+          "reason": "No parseable listings; challenge, changed layout or empty search cannot establish zero sellers."
+        }
+      ]
+    },
+    {
+      "id": "silicone-faucet-mat",
+      "name": "silicone faucet mat",
+      "status": "pending",
+      "international": false,
+      "india": false,
+      "reasons": [
+        "fewer than 10 platform-namespaced creators",
+        "fewer than 2 platforms with 5 qualifying videos",
+        "fewer than 5 countries with 3 qualifying videos",
+        "fewer than 50 unique qualifying videos",
+        "four fresh channel checks not complete",
+        "fragile must be false",
+        "international qualification missing",
+        "longest side exceeds shipping limit or is invalid",
+        "restricted must be false",
+        "shipping evidence URL missing or invalid",
+        "shipping is not verified",
+        "weight exceeds shipping limit or is invalid"
+      ],
+      "international_reasons": [
+        "fewer than 10 platform-namespaced creators",
+        "fewer than 2 platforms with 5 qualifying videos",
+        "fewer than 5 countries with 3 qualifying videos",
+        "fewer than 50 unique qualifying videos",
+        "fragile must be false",
+        "longest side exceeds shipping limit or is invalid",
+        "restricted must be false",
+        "shipping evidence URL missing or invalid",
+        "shipping is not verified",
+        "weight exceeds shipping limit or is invalid"
+      ],
+      "india_reasons": [
+        "four fresh channel checks not complete",
+        "international qualification missing"
+      ],
+      "video_evaluations": [
+        {
+          "id": "G1GKHKoxIOU",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/G1GKHKoxIOU",
+          "canonical_url": "https://www.youtube.com/shorts/G1GKHKoxIOU",
+          "creator_id": "UCX4d4Z31Aq_uqppUb9HXdNQ",
+          "country": null,
+          "country_eligible": false,
+          "views": 3861,
+          "likes": 32,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "iUBt75PPXxQ",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/iUBt75PPXxQ",
+          "canonical_url": "https://www.youtube.com/shorts/iUBt75PPXxQ",
+          "creator_id": "UCOKs9Aft2VHLqJgNaQgGwQw",
+          "country": null,
+          "country_eligible": false,
+          "views": 112,
+          "likes": 0,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "yYteIi7MHiA",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/yYteIi7MHiA",
+          "canonical_url": "https://www.youtube.com/shorts/yYteIi7MHiA",
+          "creator_id": "UCq_9UgmvGB2Yh8-jydg5aJQ",
+          "country": null,
+          "country_eligible": false,
+          "views": 1020,
+          "likes": 6,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "kdzA60g8bP0",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/kdzA60g8bP0",
+          "canonical_url": "https://www.youtube.com/shorts/kdzA60g8bP0",
+          "creator_id": "UC9FJSjpwzcOW5TZun_IKqdg",
+          "country": null,
+          "country_eligible": false,
+          "views": 62,
+          "likes": 3,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "WlkhmRtRQoM",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/WlkhmRtRQoM",
+          "canonical_url": "https://www.youtube.com/shorts/WlkhmRtRQoM",
+          "creator_id": "UC56n_oeXkNbf8h8ZjIv12_A",
+          "country": null,
+          "country_eligible": false,
+          "views": 220,
+          "likes": 2,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "DEmPwr7rIoo",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/DEmPwr7rIoo",
+          "canonical_url": "https://www.youtube.com/shorts/DEmPwr7rIoo",
+          "creator_id": "UCdJP-r_qHFZke_mf-1IeXaw",
+          "country": null,
+          "country_eligible": false,
+          "views": 171,
+          "likes": 4,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "Pl2WqhprXCQ",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/Pl2WqhprXCQ",
+          "canonical_url": "https://www.youtube.com/shorts/Pl2WqhprXCQ",
+          "creator_id": "UCDJBsEWY9Z8bNAZfoD4zohQ",
+          "country": null,
+          "country_eligible": false,
+          "views": 18,
+          "likes": 0,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "ocG1C1mq5eg",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/ocG1C1mq5eg",
+          "canonical_url": "https://www.youtube.com/shorts/ocG1C1mq5eg",
+          "creator_id": "UCQcGz1zJi1vk2fxfyWt_FHg",
+          "country": null,
+          "country_eligible": false,
+          "views": 12,
+          "likes": 0,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "tDnAcTbymQ4",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/tDnAcTbymQ4",
+          "canonical_url": "https://www.youtube.com/shorts/tDnAcTbymQ4",
+          "creator_id": "UCmOEGuLemivwryKWo_AkAyg",
+          "country": null,
+          "country_eligible": false,
+          "views": 8,
+          "likes": 0,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "J62lOXizwFQ",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/J62lOXizwFQ",
+          "canonical_url": "https://www.youtube.com/shorts/J62lOXizwFQ",
+          "creator_id": "UCNSHrHtNLtUvky0Z454cCbQ",
+          "country": null,
+          "country_eligible": false,
+          "views": 51,
+          "likes": 0,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "7CcGIB16M8I",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/7CcGIB16M8I",
+          "canonical_url": "https://www.youtube.com/shorts/7CcGIB16M8I",
+          "creator_id": "UCKJelYUt7KuSP9ES3mYCsUA",
+          "country": null,
+          "country_eligible": false,
+          "views": 20,
+          "likes": 3,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "90RfvAJQB4w",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/90RfvAJQB4w",
+          "canonical_url": "https://www.youtube.com/shorts/90RfvAJQB4w",
+          "creator_id": "UCSgRT7LE11FzGkbgOP8GBjQ",
+          "country": null,
+          "country_eligible": false,
+          "views": 1095,
+          "likes": 5,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "YWvVWAyoSpY",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/YWvVWAyoSpY",
+          "canonical_url": "https://www.youtube.com/shorts/YWvVWAyoSpY",
+          "creator_id": "UC56n_oeXkNbf8h8ZjIv12_A",
+          "country": null,
+          "country_eligible": false,
+          "views": 859,
+          "likes": 0,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "8LS8KJtvL4k",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/8LS8KJtvL4k",
+          "canonical_url": "https://www.youtube.com/shorts/8LS8KJtvL4k",
+          "creator_id": "UCFjQBEVLo7WefEEcMbAXGUg",
+          "country": null,
+          "country_eligible": false,
+          "views": 361,
+          "likes": 1,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "F02fOWtVoW0",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/F02fOWtVoW0",
+          "canonical_url": "https://www.youtube.com/shorts/F02fOWtVoW0",
+          "creator_id": "UCQcouvM8OO5Y018a6PdmKBQ",
+          "country": null,
+          "country_eligible": false,
+          "views": 1024,
+          "likes": 8,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "oHQtxYGq9j0",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/oHQtxYGq9j0",
+          "canonical_url": "https://www.youtube.com/shorts/oHQtxYGq9j0",
+          "creator_id": "UC8dIhkjCfW3nrSVGu7L8pGA",
+          "country": null,
+          "country_eligible": false,
+          "views": 764,
+          "likes": null,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "6_z77tqN4ls",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/6_z77tqN4ls",
+          "canonical_url": "https://www.youtube.com/shorts/6_z77tqN4ls",
+          "creator_id": "UCT8qg40FwH1J70JhjP2bIBQ",
+          "country": null,
+          "country_eligible": false,
+          "views": 1653,
+          "likes": 6,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "Y9ZIf54jj8Q",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/Y9ZIf54jj8Q",
+          "canonical_url": "https://www.youtube.com/shorts/Y9ZIf54jj8Q",
+          "creator_id": "UCZvtPruUzmx5LZAQXh_kJ3w",
+          "country": null,
+          "country_eligible": false,
+          "views": 1572,
+          "likes": 19,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        },
+        {
+          "id": "Evficppp3YE",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/shorts/Evficppp3YE",
+          "canonical_url": "https://www.youtube.com/shorts/Evficppp3YE",
+          "creator_id": "UCN4Y41zGg7YdfTaE2GliKog",
+          "country": null,
+          "country_eligible": false,
+          "views": 1163,
+          "likes": 2,
+          "comments": null,
+          "engagement_rate": null,
+          "qualifies": false,
+          "counted_for_diversity": false,
+          "reasons": [
+            "product match not verified",
+            "views below threshold or invalid",
+            "engagement metric invalid"
+          ],
+          "geography_reason": "country unknown"
+        }
+      ],
+      "qualifying_video_ids": [],
+      "stats": {
+        "qualifying_video_count": 0,
+        "collected_valid_video_count": 0,
+        "platform_count": 0,
+        "collected_platform_count": 0,
+        "platform_counts": {},
+        "qualifying_platforms": [],
+        "country_count": 0,
+        "collected_country_count": 0,
+        "country_counts": {},
+        "qualifying_countries": [],
+        "creator_count": 0,
+        "estimated_india_seller_count": null,
+        "observed_confirmed_seller_count": 0,
+        "seller_coverage": "unknown"
+      },
+      "shipping_reasons": [
+        "shipping is not verified",
+        "shipping evidence URL missing or invalid",
+        "weight exceeds shipping limit or is invalid",
+        "longest side exceeds shipping limit or is invalid",
+        "fragile must be false",
+        "restricted must be false"
+      ],
+      "hero_hypothesis": {
+        "problem": "Keeping the area behind a sink tap dry.",
+        "demonstration": "Water drainage demonstration.",
+        "differentiation": "Tap-fit range and drainage angle need validation."
+      },
+      "shipping_evidence": {
+        "status": "pending",
+        "evidence_url": null,
+        "weight_kg": null,
+        "longest_side_cm": null,
+        "fragile": null,
+        "restricted": null
+      },
+      "seller_evidence": [],
+      "seller_checks": [
+        {
+          "product_id": "silicone-faucet-mat",
+          "channel": "amazon_in",
+          "query": "silicone faucet mat",
+          "evidence_url": "https://www.amazon.in/s?k=silicone+faucet+mat",
+          "checked_at": "2026-09-21T10:46:37.534632+00:00",
+          "status": "blocked",
+          "leads": [],
+          "reason": "HTTP 503"
+        },
+        {
+          "product_id": "silicone-faucet-mat",
+          "channel": "flipkart",
+          "query": "silicone faucet mat",
+          "evidence_url": "https://www.flipkart.com/search?q=silicone+faucet+mat",
+          "checked_at": "2026-09-21T10:46:37.735862+00:00",
+          "status": "blocked",
+          "leads": [],
+          "reason": "HTTP 403"
+        },
+        {
+          "product_id": "silicone-faucet-mat",
+          "channel": "instagram",
+          "query": "silicone faucet mat",
+          "evidence_url": "https://www.google.com/search?q=%22silicone+faucet+mat%22+site%3Ainstagram.com+India+buy",
+          "checked_at": "2026-09-21T10:46:37.897276+00:00",
+          "status": "blocked",
+          "leads": [],
+          "response_sha256": "6988795890fe098f875712acf31592807a8ab857c2f2d16e375379ece7b136d8",
+          "reason": "No parseable listings; challenge, changed layout or empty search cannot establish zero sellers."
+        },
+        {
+          "product_id": "silicone-faucet-mat",
+          "channel": "shopify",
+          "query": "silicone faucet mat",
+          "evidence_url": "https://www.google.com/search?q=%22silicone+faucet+mat%22+India+buy+Shopify",
+          "checked_at": "2026-09-21T10:46:38.557434+00:00",
+          "status": "blocked",
+          "leads": [],
+          "response_sha256": "41655ee6a0da09f431f523a52d778f5612c2db887a09bcdebfb8e4e8d4c02523",
+          "reason": "No parseable listings; challenge, changed layout or empty search cannot establish zero sellers."
+        }
+      ]
+    }
+  ],
+  "international": [],
+  "india": [],
+  "evaluated_at": "2026-09-21T10:49:06.386637+00:00"
+}
